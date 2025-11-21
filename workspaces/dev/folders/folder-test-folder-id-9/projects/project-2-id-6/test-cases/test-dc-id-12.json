@@ -1,0 +1,26 @@
+{
+  "testCase" : {
+    "flowId" : 12,
+    "flowName" : "test dc",
+    "dmsProjectId" : 6,
+    "flowType" : "CELL BY CELL COMPARE",
+    "status" : null,
+    "encType" : 0,
+    "incompleteFlag" : false,
+    "userGroup" : "dev",
+    "version" : 2,
+    "bugId" : null,
+    "metadata" : {
+      "createdBy" : null,
+      "modifiedBy" : "dhiraj",
+      "createdDate" : 1755171368000,
+      "updatedTime" : 1755572790000
+    }
+  },
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-11-21T20:07:57.091145Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
+  }
+}

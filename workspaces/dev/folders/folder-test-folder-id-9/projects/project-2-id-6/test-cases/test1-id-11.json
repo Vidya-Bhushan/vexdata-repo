@@ -1,0 +1,45 @@
+{
+  "testCase" : {
+    "flowId" : 11,
+    "flowName" : "test1",
+    "dmsProjectId" : 6,
+    "flowType" : "DATA QUALITY",
+    "status" : null,
+    "encType" : 0,
+    "incompleteFlag" : true,
+    "userGroup" : "dev",
+    "version" : 3,
+    "bugId" : null,
+    "metadata" : {
+      "createdBy" : null,
+      "modifiedBy" : "dhiraj",
+      "createdDate" : 1755171368000,
+      "updatedTime" : 1755621731000
+    }
+  },
+  "parameters" : [ {
+    "key" : "d1",
+    "value" : "072025",
+    "type" : null,
+    "testCaseId" : 11,
+    "projectId" : 6
+  }, {
+    "key" : "currentMonth",
+    "value" : "082025",
+    "type" : null,
+    "testCaseId" : 11,
+    "projectId" : 6
+  }, {
+    "key" : "filePath",
+    "value" : "/Users/vidyabhushan/Downloads/dataops_server/my_data/user_files/100_rec_15columns.csv",
+    "type" : null,
+    "testCaseId" : 11,
+    "projectId" : 6
+  } ],
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-11-21T20:07:57.089937Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
+  }
+}
