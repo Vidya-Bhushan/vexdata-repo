@@ -1,0 +1,23 @@
+{
+  "projectId" : 7,
+  "parameters" : [ {
+    "key" : "basedir",
+    "value" : "Downloads",
+    "type" : null,
+    "projectId" : 7
+  }, {
+    "key" : "fName",
+    "value" : "test*.xlsx",
+    "type" : null,
+    "projectId" : 7
+  }, {
+    "key" : "rootdir",
+    "value" : "/Users/vidyabhushan",
+    "type" : null,
+    "projectId" : 7
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-11-22T09:01:44.452669Z",
+    "updatedBy" : "system-sync"
+  }
+}
