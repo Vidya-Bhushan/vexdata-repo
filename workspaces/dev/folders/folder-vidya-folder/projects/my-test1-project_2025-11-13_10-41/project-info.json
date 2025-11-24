@@ -1,0 +1,18 @@
+{
+  "id" : 794,
+  "name" : "my test1 project_2025-11-13_10-41",
+  "description" : "my test1 project",
+  "fileType" : "project",
+  "projectLevel" : "799",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "RECYCLEBIN",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "test1",
+    "updatedBy" : "dhiraj",
+    "createdDate" : "2025-10-15T10:14:33Z",
+    "updatedDate" : "2025-11-13T10:41:30Z"
+  }
+}
