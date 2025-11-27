@@ -6,7 +6,7 @@
     "executeOn" : "LOCAL",
     "flowName" : "dataq1764232573872",
     "email" : [ ],
-    "flowDesc" : "test dq1",
+    "flowDesc" : "test dq",
     "hadoop" : false,
     "livy" : false,
     "root" : "dataQuality",
@@ -468,7 +468,7 @@
   },
   "syncInfo" : {
     "syncId" : "FOLDER",
-    "timestamp" : "2025-11-27T14:17:54.643763Z",
+    "timestamp" : "2025-11-27T15:28:47.201871Z",
     "syncType" : "FOLDER",
     "user" : "vidya"
   }
