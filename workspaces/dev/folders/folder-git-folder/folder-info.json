@@ -1,0 +1,16 @@
+{
+  "id" : 14,
+  "name" : "folder-git folder",
+  "description" : "git folder",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "vidya",
+    "updatedBy" : null,
+    "createdDate" : "2025-11-27T14:02:14Z",
+    "updatedDate" : null
+  }
+}
