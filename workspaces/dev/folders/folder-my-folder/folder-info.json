@@ -1,16 +1,16 @@
 {
-  "id" : 611,
-  "name" : "folder-my-folder",
-  "description" : "folder test 1",
+  "id" : 4,
+  "name" : "folder-my folder",
+  "description" : "my folder",
   "fileType" : "folder",
-  "projectLevel" : "/623/617",
+  "projectLevel" : "/",
   "groupName" : "dev",
   "iconId" : "0",
   "status" : "ACTIVE",
   "metadata" : {
-    "createdBy" : "dhiraj",
-    "updatedBy" : "dhiraj",
-    "createdDate" : "2024-09-10T14:31:28Z",
-    "updatedDate" : "2025-04-10T12:22:46Z"
+    "createdBy" : "dataops",
+    "updatedBy" : null,
+    "createdDate" : "2025-08-12T14:44:53Z",
+    "updatedDate" : null
   }
 }

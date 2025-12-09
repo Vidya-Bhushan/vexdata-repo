@@ -11,8 +11,8 @@
   "endDate" : null,
   "metadata" : {
     "createdBy" : "dataops",
-    "updatedBy" : null,
+    "updatedBy" : "system_pull",
     "createdDate" : "2025-11-22T11:53:41Z",
-    "updatedDate" : null
+    "updatedDate" : "2025-12-02T19:46:57Z"
   }
 }

@@ -9,8 +9,8 @@
   "status" : "ACTIVE",
   "metadata" : {
     "createdBy" : "test1",
-    "updatedBy" : null,
+    "updatedBy" : "system_pull",
     "createdDate" : "2025-10-31T15:06:29Z",
-    "updatedDate" : null
+    "updatedDate" : "2025-12-02T19:45:20Z"
   }
 }
