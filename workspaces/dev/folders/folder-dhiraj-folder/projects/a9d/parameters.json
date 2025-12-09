@@ -1,0 +1,18 @@
+{
+  "projectId" : 682,
+  "parameters" : [ {
+    "key" : "connection_name",
+    "value" : "large_data",
+    "type" : null,
+    "projectId" : 682
+  }, {
+    "key" : "demete",
+    "value" : "wqerqwerwe",
+    "type" : null,
+    "projectId" : 682
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-08T23:43:28.026844478Z",
+    "updatedBy" : "system-sync"
+  }
+}
