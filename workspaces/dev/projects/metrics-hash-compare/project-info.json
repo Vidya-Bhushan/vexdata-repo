@@ -1,0 +1,18 @@
+{
+  "id" : 636,
+  "name" : "Metrics Hash Compare",
+  "description" : "Metrics Hash Compare",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "4",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : "branyer",
+    "createdDate" : "2025-01-27T11:24:02Z",
+    "updatedDate" : "2025-06-03T13:29:41Z"
+  }
+}
