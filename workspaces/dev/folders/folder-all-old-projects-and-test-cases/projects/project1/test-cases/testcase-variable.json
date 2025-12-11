@@ -181,9 +181,9 @@
     }
   },
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-11T09:03:04.571636285Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-11T09:04:38.200972732Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
