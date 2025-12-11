@@ -1,0 +1,18 @@
+{
+  "id" : 806,
+  "name" : "sub-pro",
+  "description" : "sub-pro",
+  "fileType" : "project",
+  "projectLevel" : "/766",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-11-12T21:49:41Z",
+    "updatedDate" : "2025-12-11T04:06:33Z"
+  }
+}
