@@ -488,9 +488,9 @@
     }
   },
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-11T09:03:16.360393010Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-11T09:05:49.230912050Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
