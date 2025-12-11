@@ -1,0 +1,18 @@
+{
+  "id" : 793,
+  "name" : "proj",
+  "description" : " ",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "RECYCLEBIN",
+  "enabled" : false,
+  "endDate" : [ 2025, 11, 14, 9, 31, 19 ],
+  "metadata" : {
+    "createdBy" : "ranjani",
+    "updatedBy" : "dataops",
+    "createdDate" : "2025-10-15T09:04:55Z",
+    "updatedDate" : "2025-11-14T09:31:19Z"
+  }
+}
