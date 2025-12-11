@@ -384,9 +384,9 @@
     "session.id" : "b2ae1050-3857-457a-bcc4-767847c786a6"
   },
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-11T09:03:05.253173823Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-11T09:05:03.779966960Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
