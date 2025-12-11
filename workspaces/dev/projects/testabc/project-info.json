@@ -1,0 +1,18 @@
+{
+  "id" : 697,
+  "name" : "testabc",
+  "description" : " ",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : "dhiraj",
+    "createdDate" : "2025-04-11T07:39:33Z",
+    "updatedDate" : "2025-04-30T10:48:03Z"
+  }
+}
