@@ -1,0 +1,23 @@
+{
+  "projectId" : 668,
+  "parameters" : [ {
+    "key" : "new",
+    "value" : "new",
+    "type" : null,
+    "projectId" : 668
+  }, {
+    "key" : "t1",
+    "value" : "table name",
+    "type" : null,
+    "projectId" : 668
+  }, {
+    "key" : "v",
+    "value" : "v",
+    "type" : null,
+    "projectId" : 668
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-11T09:02:57.617564346Z",
+    "updatedBy" : "system-sync"
+  }
+}

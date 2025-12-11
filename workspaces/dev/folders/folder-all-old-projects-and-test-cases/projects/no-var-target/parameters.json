@@ -1,0 +1,13 @@
+{
+  "projectId" : 667,
+  "parameters" : [ {
+    "key" : "filePath",
+    "value" : "/my_data/user_files/dhiraj/output.csv",
+    "type" : null,
+    "projectId" : 667
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-11T09:02:57.598291629Z",
+    "updatedBy" : "system-sync"
+  }
+}
