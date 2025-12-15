@@ -153,9 +153,9 @@
   "session_id" : "1c9ee07d-3936-447f-9c85-1394c578820a",
   "session.id" : "1c9ee07d-3936-447f-9c85-1394c578820a",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-15T05:52:39.926845115Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-15T05:54:46.480591294Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
