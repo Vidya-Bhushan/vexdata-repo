@@ -3,16 +3,12 @@
   "executorMemory" : "2g",
   "numExecutors" : 2,
   "executeOn" : "LOCAL",
-  "flowName" : "dataq1731636147662",
+  "flowName" : "dataq1741366121245",
   "email" : [ ],
   "flowDesc" : "schema compare",
   "hadoop" : false,
   "livy" : false,
   "root" : "dataCompare",
-  "API_APP_BUILD" : "7_49",
-  "UI_VERSION" : "7_49",
-  "APP_VERSION" : "7_49",
-  "LicensedName" : "7_49",
   "parameters" : [ ],
   "flowType" : "SCHEMA COMPARE",
   "jobMap" : {
@@ -25,607 +21,14 @@
         "databaseName" : "PUBLIC",
         "datasetPath" : "projects",
         "jdbcData" : {
-          "connectionName" : "${sf_conn}",
+          "connectionName" : "new_new_snowflake_rsa_encrypted",
           "groupName" : "dev"
         },
         "tableNamesList" : {
-          "SALES_CUST_TBL1" : null,
-          "CELLBYCELL_C" : null,
-          "PERSON_CLEANED" : null,
-          "GOOD_DATA" : null,
-          "CARILION_ACCOUNT1_GOOD" : null,
-          "SALES_DATA_2M_B" : null,
-          "PERSON_DETAILS_B" : null,
-          "PERSON_DETAILS_A" : null,
-          "SF_BAD_DATA_10P" : null,
-          "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN1" : null,
-          "CUSTOMER_ORACLE" : null,
-          "LINEITEM" : null,
-          "CARILION_ACCOUNT" : null,
-          "SF_BAD_DATA_50P" : null,
-          "HEALTH_DATA_DOMAIN" : null,
-          "HOSPITAL_DATA_STATS" : null,
-          "PRODUCT1" : null,
-          "HOSPITAL_DATA_GOOD" : null,
-          "EMP_HASH" : null,
-          "ORDERS_BAD" : null,
-          "ORDERS" : null,
-          "SALES_DATA_5M_B" : null,
-          "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN" : null,
-          "SALES_CUST_TBL_TEMP" : null,
-          "HEALTH_DATA_NEW" : null,
-          "COUNTRIES" : null,
-          "HOSPITAL_DATA" : null,
-          "ALPHADERA_DUMMY_ERROR1" : null,
-          "CARILION_ACCOUNT1_STATS" : null,
-          "EXAMPLE_TIME" : null,
-          "ITEM_DETAILS" : null,
-          "COMMON_D" : null,
-          "HEALTH_DATA_MAIN_CSV" : null,
-          "CARILION_ACCOUNT1_CLEANED" : null,
-          "HOSPITAL_DATA_CLEANED" : null,
-          "KW_STAFF_D" : null,
-          "SALES_CUST_TBL" : null,
-          "CUSTOMER_DETAILS" : null,
-          "TEST" : null,
-          "${dataset}" : null,
-          "HOSPITAL_DELME" : null,
-          "USERS" : null,
-          "CARILION_ACCOUNT1" : null,
-          "HOSPITAL_INFO" : null,
-          "PATIENTS_5M" : null,
-          "SAMPLETABLE_UNIQUEIDENTIFIER" : null,
-          "MEDICATION" : null,
-          "HIST_ATHENA_ORDER_DESCRIPTIONS_VALUE_SETS" : null,
-          "PERSON_STATS" : null,
-          "MY_TABLE" : null,
           "PERSONS" : null,
-          "CLIAREFERENCE1" : null,
-          "HOSPITAL_DATA2" : null,
-          "HOSPITAL_DATA1" : null,
-          "SAMPLETABLE_BIT" : null,
-          "HOSPITAL_DATA_STATS1" : null,
-          "RECIPES" : null,
-          "SF_GOOD_DATA" : null,
-          "AQIDATASET" : null,
-          "DEPARTMENTS" : null,
-          "SALES_DATA_5M" : null,
-          "HEALTH_DATA_DOMAIN_BKP" : null,
-          "PARTSUPP" : null,
-          "IOT_CSV" : null,
-          "CUSTOMER_NEW_TBL" : null,
-          "PERSON_GOOD" : null,
-          "TBL_ITEMTRANSACTIONS1" : null,
-          "PART" : null,
-          "REGIONS" : null,
-          "PERSON_DETAILS" : null,
-          "BRANCH" : null,
-          "EMPLOYEES_ORACLE" : null,
-          "CUSTOMER_TBL" : null,
-          "SALES_DATA_5M_COPY" : null,
-          "ALL_DATATYPES_SF" : null,
-          "ANALYTICS_CLOSED_ENCOUNTERS" : null,
-          "MONTHLY_SALES" : null,
-          "CATEGORY_1_PRODUCTS_V" : null,
-          "RES_EMP_2M_PK" : null,
-          "SAMPLE_EXT" : null,
-          "SALES_DATA_2M" : null,
-          "CUSTOMERS_ABOVE_30" : null,
-          "ALL_DATATYPES_B" : null,
-          "AVHANA_TABLE" : null,
-          "EMPLOYEEDATA" : null,
-          "SALES_TBL" : null,
-          "ICD_CODES" : null,
-          "HIST_RULES" : null,
-          "HCPHLOINCTABLE" : null,
-          "ENROLL_DETAIL_SNAPSHOT" : null,
-          "RES_EMP_2M" : null,
-          "AuthInfoTable" : null,
-          "ICD_LOOKUP_TABLE" : null,
-          "PERSON_DESCRIPTION" : null,
-          "MASS_TEST_CAMEL_CASE" : null
+          "PART" : null
         },
         "tableProperties" : [ {
-          "tblName" : "SALES_CUST_TBL1",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CELLBYCELL_C",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PERSON_CLEANED",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "GOOD_DATA",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CARILION_ACCOUNT1_GOOD",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SALES_DATA_2M_B",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PERSON_DETAILS_B",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PERSON_DETAILS_A",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SF_BAD_DATA_10P",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN1",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CUSTOMER_ORACLE",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "LINEITEM",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CARILION_ACCOUNT",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SF_BAD_DATA_50P",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HEALTH_DATA_DOMAIN",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_DATA_STATS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PRODUCT1",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_DATA_GOOD",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "EMP_HASH",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "ORDERS_BAD",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "ORDERS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SALES_DATA_5M_B",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SALES_CUST_TBL_TEMP",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HEALTH_DATA_NEW",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "COUNTRIES",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_DATA",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "ALPHADERA_DUMMY_ERROR1",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CARILION_ACCOUNT1_STATS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "EXAMPLE_TIME",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "ITEM_DETAILS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "COMMON_D",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HEALTH_DATA_MAIN_CSV",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CARILION_ACCOUNT1_CLEANED",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_DATA_CLEANED",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "KW_STAFF_D",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SALES_CUST_TBL",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CUSTOMER_DETAILS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "TEST",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "${dataset}",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_DELME",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "USERS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "CARILION_ACCOUNT1",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HOSPITAL_INFO",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PATIENTS_5M",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "SAMPLETABLE_UNIQUEIDENTIFIER",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "MEDICATION",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "HIST_ATHENA_ORDER_DESCRIPTIONS_VALUE_SETS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "PERSON_STATS",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
-          "tblName" : "MY_TABLE",
-          "tblSize" : "0",
-          "tblRecordCount" : 0,
-          "primaryKeys" : [ ],
-          "indexKeys" : [ ],
-          "foreignKeys" : [ ],
-          "primaryKeysEnabled" : true,
-          "indexKeysEnabled" : false,
-          "foreignKeysEnabled" : false
-        }, {
           "tblName" : "PERSONS",
           "tblSize" : "0",
           "tblRecordCount" : 0,
@@ -636,7 +39,40 @@
           "indexKeysEnabled" : false,
           "foreignKeysEnabled" : false
         }, {
-          "tblName" : "CLIAREFERENCE1",
+          "tblName" : "PART",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "PUBLIC",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "new_new_snowflake_rsa_encrypted",
+          "groupName" : "dev"
+        },
+        "tableNamesList" : {
+          "PERSONS" : null,
+          "PART" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "PERSONS",
           "tblSize" : "0",
           "tblRecordCount" : 0,
           "primaryKeys" : [ ],
@@ -646,5 +82,80 @@
           "indexKeysEnabled" : false,
           "foreignKeysEnabled" : false
         }, {
-          "tblName" : "HOSPITAL_DATA2",
-          "tblSize" : 
+          "tblName" : "PART",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "SCHEMA_COMPARE" ],
+      "filesCompareList" : [ {
+        "unitTestCaseId" : 701933341834,
+        "matchBoth" : true,
+        "compareType" : "SCHEMA_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "PERSONS" : "PERSONS"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "false",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      }, {
+        "unitTestCaseId" : 1560980835057,
+        "matchBoth" : true,
+        "compareType" : "SCHEMA_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "PART" : "PART"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "false",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "groupName" : "dev",
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"schema_compare_explicitly\":false,\"tablesList\":{\"source\":[{\"id\":\"368f15b5-0203-400d-a759-1982596b83bd\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"new_new_snowflake_rsa_encrypted\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSONS\",\"partitionProperties\":{\"numberOfPart\":null,\"column\":null},\"defaultSchema\":[{\"columnName\":\"FIRST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"LAST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"PERSON_ID\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":false,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false}],\"schema\":[{\"columnName\":\"FIRST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"LAST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"PERSON_ID\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":false,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":null,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"9d22240b-ea9c-4dbb-99ec-2508e0648189\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"new_new_snowflake_rsa_encrypted\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PART\",\"partitionProperties\":{\"numberOfPart\":null,\"column\":null},\"defaultSchema\":[{\"columnName\":\"P_BRAND\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_COMMENT\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":23,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_CONTAINER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_MFGR\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":55,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_PARTKEY\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_RETAILPRICE\",\"columnType\":\"number(12,2)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":12,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_SIZE\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_TYPE\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false}],\"schema\":[{\"columnName\":\"P_BRAND\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_COMMENT\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":23,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_CONTAINER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_MFGR\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":55,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_PARTKEY\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_RETAILPRICE\",\"columnType\":\"number(12,2)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":12,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_SIZE\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_TYPE\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":null,\"partitionColumn\":null,\"indexInfo\":null}],\"target\":[{\"id\":\"32b25e7c-4a36-4202-8a8e-8d68ae191fac\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"new_new_snowflake_rsa_encrypted\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSONS\",\"partitionProperties\":{\"numberOfPart\":null,\"column\":null},\"defaultSchema\":[{\"columnName\":\"FIRST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"LAST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"PERSON_ID\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":false,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false}],\"schema\":[{\"columnName\":\"FIRST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"LAST_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":50,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"PERSON_ID\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":false,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":null,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"69fad137-2a1b-47aa-98ef-485020dc48e3\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"new_new_snowflake_rsa_encrypted\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PART\",\"partitionProperties\":{\"numberOfPart\":null,\"column\":null},\"defaultSchema\":[{\"columnName\":\"P_BRAND\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_COMMENT\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":23,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_CONTAINER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_MFGR\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":55,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_PARTKEY\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_RETAILPRICE\",\"columnType\":\"number(12,2)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":12,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_SIZE\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_TYPE\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false}],\"schema\":[{\"columnName\":\"P_BRAND\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_COMMENT\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":23,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_CONTAINER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":10,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_MFGR\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_NAME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":55,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_PARTKEY\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_RETAILPRICE\",\"columnType\":\"number(12,2)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":12,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_SIZE\",\"columnType\":\"number(38,0)\",\"actualColumnType\":\"number\",\"nullable\":true,\"columnMaxLength\":38,\"uniqueKey\":false,\"primaryKey\":false},{\"columnName\":\"P_TYPE\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":true,\"columnMaxLength\":25,\"uniqueKey\":false,\"primaryKey\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":null,\"partitionColumn\":null,\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":2,\"test_case_name\":\"schema compare\",\"stopDifferences\":false,\"dataProfileBasic\":false,\"IGNORE_COLUMN_CASE_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_DATATYPE_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_PRIMARYKEY_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_INDEXKEY_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_NULLABILITY_SCHEMA_COMPARE\":false,\"data_monitoring\":false,\"dimensions\":[],\"FILE_CREATED_TIME\":\"CURRENT_TIME\",\"FILE_DATE_FORMAT\":\"\",\"chunks\":false,\"badRecordsCount\":15,\"comparisonType\":\"default\",\"comparisonTypeSelectedByUser\":false,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"template\":\"default\",\"mailingList\":\"\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"701933341834\":{\"source\":\"368f15b5-0203-400d-a759-1982596b83bd\",\"target\":\"32b25e7c-4a36-4202-8a8e-8d68ae191fac\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"4aea7093-ef57-461c-8461-6898881ef03b\",\"sourceColumnName\":\"PERSON_ID\",\"sourceColumnType\":\"number(38,0)\",\"sourceActualColumnType\":\"number\",\"sourceNullable\":false,\"targetColumnName\":\"PERSON_ID\",\"targetColumnType\":\"number(38,0)\",\"targetActualColumnType\":\"number\",\"targetNullable\":false,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"921df645-e997-49a9-8fae-e5cee03527a2\",\"sourceColumnName\":\"LAST_NAME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"LAST_NAME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"bf7c99cc-7ccc-45ed-8368-aef47557c297\",\"sourceColumnName\":\"FIRST_NAME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"FIRST_NAME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"1560980835057\":{\"source\":\"9d22240b-ea9c-4dbb-99ec-2508e0648189\",\"target\":\"69fad137-2a1b-47aa-98ef-485020dc48e3\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"6e68c316-ea4d-4b14-b193-342349b2cdd0\",\"sourceColumnName\":\"P_TYPE\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_TYPE\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"1170b2b4-5258-4821-aff4-d4ac272e2406\",\"sourceColumnName\":\"P_SIZE\",\"sourceColumnType\":\"number(38,0)\",\"sourceActualColumnType\":\"number\",\"sourceNullable\":true,\"targetColumnName\":\"P_SIZE\",\"targetColumnType\":\"number(38,0)\",\"targetActualColumnType\":\"number\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"1e7fccb5-163e-403b-9a60-cdf800a5cbfa\",\"sourceColumnName\":\"P_RETAILPRICE\",\"sourceColumnType\":\"number(12,2)\",\"sourceActualColumnType\":\"number\",\"sourceNullable\":true,\"targetColumnName\":\"P_RETAILPRICE\",\"targetColumnType\":\"number(12,2)\",\"targetActualColumnType\":\"number\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"78ab6ca1-6315-44b4-8a41-92ed22648d01\",\"sourceColumnName\":\"P_PARTKEY\",\"sourceColumnType\":\"number(38,0)\",\"sourceActualColumnType\":\"number\",\"sourceNullable\":true,\"targetColumnName\":\"P_PARTKEY\",\"targetColumnType\":\"number(38,0)\",\"targetActualColumnType\":\"number\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"f771553e-f5e4-452e-97cd-eccd51c74f48\",\"sourceColumnName\":\"P_NAME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_NAME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"31cb598f-0d05-447d-a6a1-b2babf234fda\",\"sourceColumnName\":\"P_MFGR\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_MFGR\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"2a8169ac-ef9b-42c0-8b6a-981f49e4a000\",\"sourceColumnName\":\"P_CONTAINER\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_CONTAINER\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"c4fb18fa-8bc0-4389-aadf-50606b24e69b\",\"sourceColumnName\":\"P_COMMENT\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_COMMENT\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"3206f958-a88d-4c40-9182-f35b4c8b8862\",\"sourceColumnName\":\"P_BRAND\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":true,\"targetColumnName\":\"P_BRAND\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"}}},\"dataQualityState\":{},\"columnRules\":{},\"dataStandarizations\":{\"columnStandarization\":{\"data\":{},\"arrangeColumnsInOriginalOrder\":false,\"moveNewColumnsToRight\":false},\"sqlTransformation\":{\"sql\":\"\",\"sqlName\":\"\",\"editData\":null,\"data\":{}}},\"outputData\":[],\"notes\":[],\"unitTests\":[{\"unitTestCaseId\":\"701933341834\",\"deleted\":false,\"saved\":true,\"updated\":false},{\"unitTestCaseId\":\"1560980835057\",\"deleted\":false,\"saved\":true,\"updated\":false}]}",
+  "syncInfo" : {
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-15T05:55:36.011261196Z",
+    "syncType" : "PROJECT",
+    "user" : "system"
+  }
+}
