@@ -1,0 +1,28 @@
+{
+  "projectId" : 707,
+  "parameters" : [ {
+    "key" : "conn",
+    "value" : "snowflake_NYC_TAXI_DATA",
+    "type" : null,
+    "projectId" : 707
+  }, {
+    "key" : "dataset",
+    "value" : "HEALTH_DATA",
+    "type" : null,
+    "projectId" : 707
+  }, {
+    "key" : "large_data_connection",
+    "value" : "large_data",
+    "type" : null,
+    "projectId" : 707
+  }, {
+    "key" : "orders_table",
+    "value" : "ORDERS",
+    "type" : null,
+    "projectId" : 707
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-15T05:55:27.023158063Z",
+    "updatedBy" : "system-sync"
+  }
+}
