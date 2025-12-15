@@ -1,0 +1,18 @@
+{
+  "id" : 776,
+  "name" : "tester",
+  "description" : "testbr",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "branyer",
+    "updatedBy" : "dhiraj",
+    "createdDate" : "2025-08-28T16:53:03Z",
+    "updatedDate" : "2025-11-13T18:33:42Z"
+  }
+}
