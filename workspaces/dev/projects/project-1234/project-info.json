@@ -1,0 +1,18 @@
+{
+  "id" : 775,
+  "name" : "project 1234",
+  "description" : "project 1234",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : false,
+  "endDate" : [ 2025, 11, 17, 3, 52, 59 ],
+  "metadata" : {
+    "createdBy" : "vidya",
+    "updatedBy" : "dhiraj",
+    "createdDate" : "2025-08-26T07:02:42Z",
+    "updatedDate" : "2025-11-17T03:53:13Z"
+  }
+}

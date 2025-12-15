@@ -1,0 +1,18 @@
+{
+  "id" : 768,
+  "name" : "Data_Ingestion_Validation",
+  "description" : "Data_Ingestion_Validation",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : null,
+    "createdDate" : "2025-08-06T22:17:28Z",
+    "updatedDate" : "2025-08-06T22:17:28Z"
+  }
+}
