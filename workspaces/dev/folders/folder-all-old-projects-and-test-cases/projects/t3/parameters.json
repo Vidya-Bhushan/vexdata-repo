@@ -1,0 +1,13 @@
+{
+  "projectId" : 684,
+  "parameters" : [ {
+    "key" : "conn",
+    "value" : "PUBLIC",
+    "type" : null,
+    "projectId" : 684
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-15T05:52:34.101979103Z",
+    "updatedBy" : "system-sync"
+  }
+}

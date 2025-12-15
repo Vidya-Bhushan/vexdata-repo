@@ -1,0 +1,13 @@
+{
+  "projectId" : 671,
+  "parameters" : [ {
+    "key" : "conn",
+    "value" : "large_data",
+    "type" : null,
+    "projectId" : 671
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-15T05:52:33.980308381Z",
+    "updatedBy" : "system-sync"
+  }
+}
