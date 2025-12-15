@@ -1,0 +1,16 @@
+{
+  "id" : 816,
+  "name" : "folder-new folder test",
+  "description" : " ",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-11-14T10:44:32Z",
+    "updatedDate" : "2025-12-11T04:06:33Z"
+  }
+}
