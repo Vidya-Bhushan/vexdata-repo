@@ -1,0 +1,13 @@
+{
+  "projectId" : 751,
+  "parameters" : [ {
+    "key" : "test_conn",
+    "value" : "/my_data/user_files/sample.csv",
+    "type" : null,
+    "projectId" : 751
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-15T05:56:09.531837315Z",
+    "updatedBy" : "system-sync"
+  }
+}
