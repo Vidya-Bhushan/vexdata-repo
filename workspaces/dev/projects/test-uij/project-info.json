@@ -1,0 +1,18 @@
+{
+  "id" : 819,
+  "name" : "test uij",
+  "description" : " ",
+  "fileType" : "project",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "RECYCLEBIN",
+  "enabled" : false,
+  "endDate" : [ 2025, 11, 14, 10, 53, 42 ],
+  "metadata" : {
+    "createdBy" : "dhiraj",
+    "updatedBy" : "dhiraj",
+    "createdDate" : "2025-11-14T10:53:12Z",
+    "updatedDate" : "2025-11-14T10:53:43Z"
+  }
+}
