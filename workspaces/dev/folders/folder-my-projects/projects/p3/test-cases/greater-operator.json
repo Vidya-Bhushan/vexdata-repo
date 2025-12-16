@@ -120,9 +120,9 @@
   "email" : [ ],
   "flowType" : "COUNTS COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-16T16:59:06.237403Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-16T17:01:46.649769Z",
+    "syncType" : "PROJECT",
     "user" : "dataops"
   }
 }

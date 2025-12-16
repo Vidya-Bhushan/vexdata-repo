@@ -90,9 +90,9 @@
   "email" : [ ],
   "flowType" : "DATA QUALITY",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-16T16:59:06.114139Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-16T17:01:46.448265Z",
+    "syncType" : "PROJECT",
     "user" : "dataops"
   }
 }

@@ -1717,9 +1717,9 @@
   "email" : [ ],
   "flowType" : "COUNTS COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-16T16:59:05.961794Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-16T17:01:46.142142Z",
+    "syncType" : "PROJECT",
     "user" : "dataops"
   }
 }

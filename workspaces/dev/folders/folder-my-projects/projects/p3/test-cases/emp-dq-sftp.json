@@ -236,9 +236,9 @@
   "email" : [ ],
   "flowType" : "DATA QUALITY",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-16T16:59:06.339675Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-16T17:01:46.778116Z",
+    "syncType" : "PROJECT",
     "user" : "dataops"
   }
 }
