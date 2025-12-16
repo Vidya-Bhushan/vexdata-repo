@@ -138,9 +138,9 @@
   "email" : [ ],
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:46.134640Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:05.517865Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

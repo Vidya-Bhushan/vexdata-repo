@@ -164,9 +164,9 @@
   "session.id" : "a1de709e-debf-4b19-afb3-8b74862eb160",
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:46.784394Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:05.875648Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

@@ -281,9 +281,9 @@
   "email" : [ ],
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:48.229175Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:06.341130Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

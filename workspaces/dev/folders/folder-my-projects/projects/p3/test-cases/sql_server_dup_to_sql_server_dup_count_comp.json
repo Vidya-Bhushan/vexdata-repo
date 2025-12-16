@@ -2152,9 +2152,9 @@
   "email" : [ ],
   "flowType" : "COUNTS COMPARE",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:47.835294Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:06.039192Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

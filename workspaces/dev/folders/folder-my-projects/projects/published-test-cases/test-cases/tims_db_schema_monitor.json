@@ -148,9 +148,9 @@
   "email" : [ ],
   "flowType" : "SCHEMA MONITORING",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:45.336488Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:06.456935Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

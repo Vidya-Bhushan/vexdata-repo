@@ -622,9 +622,9 @@
   "email" : [ ],
   "flowType" : "SCHEMA MONITORING",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:48.370874Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:06.437155Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }

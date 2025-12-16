@@ -3907,9 +3907,9 @@
   "session.id" : "f2b73af4-081f-4d6c-a896-30a1ec77b19e",
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "PROJECT",
-    "timestamp" : "2025-12-16T16:53:45.974466Z",
-    "syncType" : "PROJECT",
-    "user" : "system"
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-16T16:59:05.310820Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
   }
 }
