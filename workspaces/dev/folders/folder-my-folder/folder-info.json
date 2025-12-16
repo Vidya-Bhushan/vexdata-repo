@@ -1,0 +1,16 @@
+{
+  "id" : 58,
+  "name" : "folder-my folder",
+  "description" : "asd ",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "dhiraj.peechara",
+    "updatedBy" : null,
+    "createdDate" : "2025-11-14T11:30:56Z",
+    "updatedDate" : "2025-11-14T11:30:56Z"
+  }
+}
