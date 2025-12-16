@@ -1,0 +1,1410 @@
+{
+  "executorCores" : 2,
+  "executorMemory" : "2g",
+  "numExecutors" : 100,
+  "executeOn" : "LOCAL",
+  "flowName" : "dataq1731590783524",
+  "email" : [ ],
+  "flowDesc" : "snowflake_NYC_TAXI_DATA_to_oracle_19C_compare",
+  "hadoop" : false,
+  "livy" : false,
+  "root" : "dataCompare",
+  "API_APP_BUILD" : "7_49",
+  "UI_VERSION" : "7_49",
+  "APP_VERSION" : "7_49",
+  "LicensedName" : "7_49",
+  "parameters" : [ ],
+  "flowType" : "COUNTS COMPARE",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "PUBLIC",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "snowflake_NYC_TAXI_DATA",
+          "groupName" : "dev"
+        },
+        "tableNamesList" : {
+          "SALES_CUST_TBL1" : null,
+          "CELLBYCELL_C" : null,
+          "PERSON_CLEANED" : null,
+          "GOOD_DATA" : null,
+          "CARILION_ACCOUNT1_GOOD" : null,
+          "SALES_DATA_2M_B" : null,
+          "PERSON_DETAILS_B" : null,
+          "PERSON_DETAILS_A" : null,
+          "SF_BAD_DATA_10P" : null,
+          "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN1" : null,
+          "CUSTOMER_ORACLE" : null,
+          "LINEITEM" : null,
+          "CARILION_ACCOUNT" : null,
+          "SF_BAD_DATA_50P" : null,
+          "HEALTH_DATA_DOMAIN" : null,
+          "HOSPITAL_DATA_STATS" : null,
+          "PRODUCT1" : null,
+          "HOSPITAL_DATA_GOOD" : null,
+          "EMP_HASH" : null,
+          "ORDERS_BAD" : null,
+          "ORDERS" : null,
+          "SALES_DATA_5M_B" : null,
+          "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN" : null,
+          "SALES_CUST_TBL_TEMP" : null,
+          "HEALTH_DATA_NEW" : null,
+          "COUNTRIES" : null,
+          "HOSPITAL_DATA" : null,
+          "ALPHADERA_DUMMY_ERROR1" : null,
+          "CARILION_ACCOUNT1_STATS" : null,
+          "EXAMPLE_TIME" : null,
+          "ITEM_DETAILS" : null,
+          "COMMON_D" : null,
+          "HEALTH_DATA_MAIN_CSV" : null,
+          "CARILION_ACCOUNT1_CLEANED" : null,
+          "HOSPITAL_DATA_CLEANED" : null,
+          "KW_STAFF_D" : null,
+          "SALES_CUST_TBL" : null,
+          "CUSTOMER_DETAILS" : null,
+          "TEST" : null,
+          "HEALTH_DATA" : null,
+          "HOSPITAL_DELME" : null,
+          "USERS" : null,
+          "CARILION_ACCOUNT1" : null,
+          "HOSPITAL_INFO" : null,
+          "PATIENTS_5M" : null,
+          "SAMPLETABLE_UNIQUEIDENTIFIER" : null,
+          "MEDICATION" : null,
+          "HIST_ATHENA_ORDER_DESCRIPTIONS_VALUE_SETS" : null,
+          "PERSON_STATS" : null,
+          "MY_TABLE" : null,
+          "PERSONS" : null,
+          "CLIAREFERENCE1" : null,
+          "HOSPITAL_DATA2" : null,
+          "HOSPITAL_DATA1" : null,
+          "SAMPLETABLE_BIT" : null,
+          "HOSPITAL_DATA_STATS1" : null,
+          "RECIPES" : null,
+          "SF_GOOD_DATA" : null,
+          "AQIDATASET" : null,
+          "DEPARTMENTS" : null,
+          "SALES_DATA_5M" : null,
+          "HEALTH_DATA_DOMAIN_BKP" : null,
+          "PARTSUPP" : null,
+          "IOT_CSV" : null,
+          "CUSTOMER_NEW_TBL" : null,
+          "PERSON_GOOD" : null,
+          "TBL_ITEMTRANSACTIONS1" : null,
+          "PART" : null,
+          "REGIONS" : null,
+          "PERSON_DETAILS" : null,
+          "BRANCH" : null,
+          "EMPLOYEES_ORACLE" : null,
+          "CUSTOMER_TBL" : null,
+          "SALES_DATA_5M_COPY" : null,
+          "ALL_DATATYPES_SF" : null,
+          "ANALYTICS_CLOSED_ENCOUNTERS" : null,
+          "MONTHLY_SALES" : null,
+          "CATEGORY_1_PRODUCTS_V" : null,
+          "RES_EMP_2M_PK" : null,
+          "SAMPLE_EXT" : null,
+          "SALES_DATA_2M" : null,
+          "CUSTOMERS_ABOVE_30" : null,
+          "ALL_DATATYPES_B" : null,
+          "AVHANA_TABLE" : null,
+          "EMPLOYEEDATA" : null,
+          "SALES_TBL" : null,
+          "ICD_CODES" : null,
+          "HIST_RULES" : null,
+          "HCPHLOINCTABLE" : null,
+          "ENROLL_DETAIL_SNAPSHOT" : null,
+          "RES_EMP_2M" : null,
+          "AuthInfoTable" : null,
+          "ICD_LOOKUP_TABLE" : null,
+          "PERSON_DESCRIPTION" : null,
+          "MASS_TEST_CAMEL_CASE" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "SALES_CUST_TBL1",
+          "tblSize" : "1",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CELLBYCELL_C",
+          "tblSize" : "0",
+          "tblRecordCount" : 89,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_CLEANED",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "GOOD_DATA",
+          "tblSize" : "48",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CARILION_ACCOUNT1_GOOD",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_DATA_2M_B",
+          "tblSize" : "76",
+          "tblRecordCount" : 2000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_DETAILS_B",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_DETAILS_A",
+          "tblSize" : "0",
+          "tblRecordCount" : 99,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SF_BAD_DATA_10P",
+          "tblSize" : "25444",
+          "tblRecordCount" : 1106599457,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN1",
+          "tblSize" : "0",
+          "tblRecordCount" : 157,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMER_ORACLE",
+          "tblSize" : "2",
+          "tblRecordCount" : 43838,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "LINEITEM",
+          "tblSize" : "158",
+          "tblRecordCount" : 6001215,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CARILION_ACCOUNT",
+          "tblSize" : "0",
+          "tblRecordCount" : 5,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SF_BAD_DATA_50P",
+          "tblSize" : "14623",
+          "tblRecordCount" : 919396188,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HEALTH_DATA_DOMAIN",
+          "tblSize" : "3",
+          "tblRecordCount" : 35398,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA_STATS",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PRODUCT1",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA_GOOD",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMP_HASH",
+          "tblSize" : "1",
+          "tblRecordCount" : 20000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ORDERS_BAD",
+          "tblSize" : "31",
+          "tblRecordCount" : 1499983,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ORDERS",
+          "tblSize" : "39",
+          "tblRecordCount" : 1499983,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_DATA_5M_B",
+          "tblSize" : "187",
+          "tblRecordCount" : 5000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN",
+          "tblSize" : "0",
+          "tblRecordCount" : 161,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_CUST_TBL_TEMP",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HEALTH_DATA_NEW",
+          "tblSize" : "0",
+          "tblRecordCount" : 99,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "COUNTRIES",
+          "tblSize" : "0",
+          "tblRecordCount" : 25,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA",
+          "tblSize" : "0",
+          "tblRecordCount" : 99,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ALPHADERA_DUMMY_ERROR1",
+          "tblSize" : "0",
+          "tblRecordCount" : 30,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CARILION_ACCOUNT1_STATS",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EXAMPLE_TIME",
+          "tblSize" : "0",
+          "tblRecordCount" : 8,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ITEM_DETAILS",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "COMMON_D",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HEALTH_DATA_MAIN_CSV",
+          "tblSize" : "0",
+          "tblRecordCount" : 4020,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CARILION_ACCOUNT1_CLEANED",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA_CLEANED",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "KW_STAFF_D",
+          "tblSize" : "0",
+          "tblRecordCount" : 4,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_CUST_TBL",
+          "tblSize" : "1",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMER_DETAILS",
+          "tblSize" : "1",
+          "tblRecordCount" : 17427,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "TEST",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HEALTH_DATA",
+          "tblSize" : "3",
+          "tblRecordCount" : 35555,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DELME",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "USERS",
+          "tblSize" : "0",
+          "tblRecordCount" : 3,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CARILION_ACCOUNT1",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_INFO",
+          "tblSize" : "0",
+          "tblRecordCount" : 100,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PATIENTS_5M",
+          "tblSize" : "89",
+          "tblRecordCount" : 5000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SAMPLETABLE_UNIQUEIDENTIFIER",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "MEDICATION",
+          "tblSize" : "0",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HIST_ATHENA_ORDER_DESCRIPTIONS_VALUE_SETS",
+          "tblSize" : "0",
+          "tblRecordCount" : 10,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_STATS",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "MY_TABLE",
+          "tblSize" : "0",
+          "tblRecordCount" : 1,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSONS",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CLIAREFERENCE1",
+          "tblSize" : "0",
+          "tblRecordCount" : 7,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA2",
+          "tblSize" : "0",
+          "tblRecordCount" : 101,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA1",
+          "tblSize" : "0",
+          "tblRecordCount" : 101,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SAMPLETABLE_BIT",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HOSPITAL_DATA_STATS1",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "RECIPES",
+          "tblSize" : "0",
+          "tblRecordCount" : 3,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SF_GOOD_DATA",
+          "tblSize" : "23997",
+          "tblRecordCount" : 1106599457,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "AQIDATASET",
+          "tblSize" : "0",
+          "tblRecordCount" : 10924,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "DEPARTMENTS",
+          "tblSize" : "0",
+          "tblRecordCount" : 27,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_DATA_5M",
+          "tblSize" : "265",
+          "tblRecordCount" : 5000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HEALTH_DATA_DOMAIN_BKP",
+          "tblSize" : "5",
+          "tblRecordCount" : 70796,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PARTSUPP",
+          "tblSize" : "35",
+          "tblRecordCount" : 800000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "IOT_CSV",
+          "tblSize" : "0",
+          "tblRecordCount" : 3942,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMER_NEW_TBL",
+          "tblSize" : "122",
+          "tblRecordCount" : 3000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_GOOD",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "TBL_ITEMTRANSACTIONS1",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PART",
+          "tblSize" : "5",
+          "tblRecordCount" : 200000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "REGIONS",
+          "tblSize" : "0",
+          "tblRecordCount" : 4,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_DETAILS",
+          "tblSize" : "0",
+          "tblRecordCount" : 99,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "BRANCH",
+          "tblSize" : "0",
+          "tblRecordCount" : 2,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEES_ORACLE",
+          "tblSize" : "0",
+          "tblRecordCount" : 4,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMER_TBL",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_DATA_5M_COPY",
+          "tblSize" : "119",
+          "tblRecordCount" : 5000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ALL_DATATYPES_SF",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ANALYTICS_CLOSED_ENCOUNTERS",
+          "tblSize" : "0",
+          "tblRecordCount" : 3,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "MONTHLY_SALES",
+          "tblSize" : "0",
+          "tblRecordCount" : 16,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CATEGORY_1_PRODUCTS_V",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "RES_EMP_2M_PK",
+          "tblSize" : "37",
+          "tblRecordCount" : 2000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SAMPLE_EXT",
+          "tblSize" : "48",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_DATA_2M",
+          "tblSize" : "57",
+          "tblRecordCount" : 2162874,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMERS_ABOVE_30",
+          "tblSize" : "0",
+          "tblRecordCount" : 164,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ALL_DATATYPES_B",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "AVHANA_TABLE",
+          "tblSize" : "0",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEEDATA",
+          "tblSize" : "0",
+          "tblRecordCount" : 1000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SALES_TBL",
+          "tblSize" : "1",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ICD_CODES",
+          "tblSize" : "4",
+          "tblRecordCount" : 100000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HIST_RULES",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "HCPHLOINCTABLE",
+          "tblSize" : "0",
+          "tblRecordCount" : 164,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ENROLL_DETAIL_SNAPSHOT",
+          "tblSize" : "0",
+          "tblRecordCount" : 1,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "RES_EMP_2M",
+          "tblSize" : "146",
+          "tblRecordCount" : 8000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "AuthInfoTable",
+          "tblSize" : "0",
+          "tblRecordCount" : 1,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ICD_LOOKUP_TABLE",
+          "tblSize" : "0",
+          "tblRecordCount" : 26,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "PERSON_DESCRIPTION",
+          "tblSize" : "0",
+          "tblRecordCount" : 89,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "MASS_TEST_CAMEL_CASE",
+          "tblSize" : "0",
+          "tblRecordCount" : 4,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "DATAQ",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "oracle_19C",
+          "groupName" : "dev"
+        },
+        "tableNamesList" : {
+          "EMPLOYEE_1M_ORACLE_BAD" : null,
+          "CELLBYCELL_C" : null,
+          "EMPLOYEE_50K_ORACLE_5K_BAD" : null,
+          "METRICS_20M__B1" : {
+            "numberOfPart" : 0,
+            "column" : "EMP_ID"
+          },
+          "EMPLOYEE_1M_ORACLE_dup" : {
+            "numberOfPart" : 14,
+            "column" : "ID"
+          },
+          "EMPLOYEE_ORACLE" : {
+            "numberOfPart" : 58,
+            "column" : "ID"
+          },
+          "SAP_EMPLOYEES" : {
+            "numberOfPart" : 0,
+            "column" : "EMP_ID"
+          },
+          "EMPLOYEE_50K_ORACLE" : null,
+          "EMPTY_TAB" : null,
+          "ERP_EMPLOYEES" : {
+            "numberOfPart" : 0,
+            "column" : "EMP_ID"
+          },
+          "EMPLOYEE_10K_ORACLE" : null,
+          "EMPLOYEE_1M_ORACLE" : {
+            "numberOfPart" : 14,
+            "column" : "ID"
+          },
+          "EMPLOYEE_ORACLE_dup" : {
+            "numberOfPart" : 17,
+            "column" : "ID"
+          },
+          "EMPLOYEES" : {
+            "numberOfPart" : 0,
+            "column" : "EMPLOYEE_ID"
+          },
+          "IOT_CSV" : null,
+          "CUSTOMER" : {
+            "numberOfPart" : 17,
+            "column" : "C_CUSTKEY"
+          },
+          "EMPLOYEEDATA" : null,
+          "EMPLOYEE_10K_ORACLE_1K_BAD" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "EMPLOYEE_1M_ORACLE_BAD",
+          "tblSize" : "262",
+          "tblRecordCount" : 1000000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CELLBYCELL_C",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 89,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_50K_ORACLE_5K_BAD",
+          "tblSize" : "14",
+          "tblRecordCount" : 50000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "METRICS_20M__B1",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_1M_ORACLE_dup",
+          "tblSize" : "264",
+          "tblRecordCount" : 1000000,
+          "primaryKeys" : [ "ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_ORACLE",
+          "tblSize" : "1351",
+          "tblRecordCount" : 5000000,
+          "primaryKeys" : [ "ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "SAP_EMPLOYEES",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 10,
+          "primaryKeys" : [ "EMP_ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_50K_ORACLE",
+          "tblSize" : "14",
+          "tblRecordCount" : 50000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPTY_TAB",
+          "tblSize" : "0",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "ERP_EMPLOYEES",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 8,
+          "primaryKeys" : [ "EMP_ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_10K_ORACLE",
+          "tblSize" : "3",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_1M_ORACLE",
+          "tblSize" : "262",
+          "tblRecordCount" : 1000000,
+          "primaryKeys" : [ "ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_ORACLE_dup",
+          "tblSize" : "344",
+          "tblRecordCount" : 1287547,
+          "primaryKeys" : [ "ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEES",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 4,
+          "primaryKeys" : [ "EMPLOYEE_ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "IOT_CSV",
+          "tblSize" : "0.13",
+          "tblRecordCount" : 462,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "CUSTOMER",
+          "tblSize" : "328",
+          "tblRecordCount" : 3000000,
+          "primaryKeys" : [ "C_CUSTKEY" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEEDATA",
+          "tblSize" : "0.13",
+          "tblRecordCount" : 999,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "EMPLOYEE_10K_ORACLE_1K_BAD",
+          "tblSize" : "3",
+          "tblRecordCount" : 10000,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "COUNTS_COMPARE" ],
+      "filesCompareList" : [ {
+        "unitTestCaseId" : 1306261810684,
+        "matchBoth" : true,
+        "compareType" : "COUNTS_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "CELLBYCELL_C" : "CELLBYCELL_C"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "false",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      }, {
+        "unitTestCaseId" : 1411192572071,
+        "matchBoth" : true,
+        "compareType" : "COUNTS_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "IOT_CSV" : "IOT_CSV"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "false",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      }, {
+        "unitTestCaseId" : 1273819388608,
+        "matchBoth" : true,
+        "compareType" : "COUNTS_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "EMPLOYEEDATA" : "EMPLOYEEDATA"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "false",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "COUNTS_COMPARE_TOLERANCE" : "0",
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "groupName" : "dev",
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"schema_compare_explicitly\":false,\"reports\":[\"Table Count\"],\"tablesList\":{\"source\":[{\"id\":\"8ed6694e-67d1-4f9b-9280-68d8f301c055\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_CUST_TBL1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"db29eeb9-dff7-4dba-a05a-084ec9fb71bb\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CELLBYCELL_C\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":89,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"83481092-e60b-4b50-8a92-39e5a4987a4d\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_CLEANED\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"d4cef654-39eb-4047-96d2-a1540616f72d\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"EXTERNAL TABLE\",\"tableName\":\"GOOD_DATA\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":48,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"358256f0-ebd8-4553-b18b-9c200aff31f0\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CARILION_ACCOUNT1_GOOD\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"010074b4-8a16-446d-a3c2-d680105e7bc7\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_DATA_2M_B\",\"partitionProperties\":{\"numberOfPart\":7,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":2000000,\"tableSize\":76,\"noOfPartition\":7,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"309357ed-1c69-4f68-804a-4600480b6e84\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_DETAILS_B\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"db69ac44-fd9a-44e0-847c-aa1e465a0ee1\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_DETAILS_A\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":99,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3d351530-b4fe-442c-97e0-6eed5d692ffb\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SF_BAD_DATA_10P\",\"partitionProperties\":{\"numberOfPart\":1021,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1106599457,\"tableSize\":25444,\"noOfPartition\":1021,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"5f95b40d-cd5b-406c-a50e-a17236a02c75\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":157,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"c1347c70-fa4b-4ab2-bfe7-12c856cc8bdb\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CUSTOMER_ORACLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":43838,\"tableSize\":2,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"033d2649-e42c-4c3c-ba71-31e213392b54\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"LINEITEM\",\"partitionProperties\":{\"numberOfPart\":10,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":6001215,\"tableSize\":158,\"noOfPartition\":10,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"87da3a3a-6f0b-4665-908d-6c4c3541b62e\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CARILION_ACCOUNT\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":5,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"e9f4e89e-d845-4719-8734-53925d2afa37\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SF_BAD_DATA_50P\",\"partitionProperties\":{\"numberOfPart\":588,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":919396188,\"tableSize\":14623,\"noOfPartition\":588,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"25183551-8964-4453-803c-d5789b5b640b\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HEALTH_DATA_DOMAIN\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":35398,\"tableSize\":3,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"9b71d5d4-d265-4756-ba23-7962dd565edb\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA_STATS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3e71462b-f3d9-4278-a7f3-0af2b9aa7cce\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PRODUCT1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"fb1cdbb6-bdce-4c83-b474-26bb71561984\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA_GOOD\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7fc8e886-a2bd-4868-a711-536756ca84ea\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"EMP_HASH\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":20000,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"f65bffeb-8d77-4c37-a0a2-9b2d7029e741\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ORDERS_BAD\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1499983,\"tableSize\":31,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"2c9760d7-332a-4b4d-a9ca-d3c7e929d4d1\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ORDERS\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1499983,\"tableSize\":39,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"56ac3460-88ec-4356-a6bc-020770eb5410\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_DATA_5M_B\",\"partitionProperties\":{\"numberOfPart\":11,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":5000000,\"tableSize\":187,\"noOfPartition\":11,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"037ec890-6b9c-4de7-8a2b-28bfaa40a409\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CLAIM_SETTLEMENTS_FOR_CITY_OF_AUSTIN\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":161,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"102c6e86-cd40-4af3-b9e9-120dfc3d3852\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_CUST_TBL_TEMP\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"16d670b9-d37e-4841-919c-5a19be910cda\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HEALTH_DATA_NEW\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":99,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"ab28b945-a6c8-4168-9259-4af8d3257aec\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"COUNTRIES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":25,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"6c6b2fc8-f112-429a-97d7-2bf45d5c629c\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":99,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"a6f5d28b-124e-4fd9-a800-ed08a68b2562\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ALPHADERA_DUMMY_ERROR1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":30,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"53098d08-1da9-494a-957c-b0c773aa9147\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CARILION_ACCOUNT1_STATS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"ea88bc98-31d3-454b-8aae-b1123f27a38e\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"EXAMPLE_TIME\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":8,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"bfa4332f-8e99-4736-8ae7-f788776574c5\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ITEM_DETAILS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3ca15c4b-2cff-4caf-be97-b27414a0a463\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"COMMON_D\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"fbbe286a-5c13-4ff7-9cb9-e3f6fe91686f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HEALTH_DATA_MAIN_CSV\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":4020,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"c2e6bef6-ba9b-48f7-ace2-5de48d3a3458\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CARILION_ACCOUNT1_CLEANED\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"9213008b-f257-4218-bedd-35195e95f1d9\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA_CLEANED\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"edd37c08-8105-4aaa-9be8-5ec5ad988b1c\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"KW_STAFF_D\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":4,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"5c1ab498-9a07-4bdf-962e-5f3974180bbd\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_CUST_TBL\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"57ad3467-5e7a-4fa2-ba6f-8094bd4477ee\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CUSTOMER_DETAILS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":17427,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"cb3f809c-d3a2-47bc-8a33-84bbadba9dbc\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"TEST\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"39841629-5080-47b5-a9af-e9857cc712eb\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HEALTH_DATA\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":35555,\"tableSize\":3,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"4a739333-8233-4c01-9ef0-554c7ef96582\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DELME\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"ac53b825-35bf-4240-bb4c-c49140dbe334\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"USERS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"dcc92ba8-6c55-4c94-8279-6e36de2dd977\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CARILION_ACCOUNT1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"61e9fa68-49a8-42fa-a3b2-c525a6e50d50\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_INFO\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"bbdae6ff-c360-4cfc-9542-06b11fba7c23\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PATIENTS_5M\",\"partitionProperties\":{\"numberOfPart\":7,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":5000000,\"tableSize\":89,\"noOfPartition\":7,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"0c10256f-2cb7-485c-b0d3-3fa16c9eda21\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SAMPLETABLE_UNIQUEIDENTIFIER\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"23154608-25fc-48de-b8cc-772ab706c5ad\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"MEDICATION\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"383cfc01-dc7f-4823-a2b0-e327828bfccc\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HIST_ATHENA_ORDER_DESCRIPTIONS_VALUE_SETS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"4a6e3b25-fab5-4eb5-9bc0-dc24b5647dd5\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_STATS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"5ed22ed9-d594-4bdc-87a7-c20be338e5a8\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"MY_TABLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"76eaa91e-30f2-4713-9696-7acd5247cbfe\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSONS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"2d71732c-2e10-45a5-b0a7-41d88a3dc029\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CLIAREFERENCE1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":7,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"fdf207ae-4f13-41fd-8903-89b54d2334d2\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA2\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":101,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"90687ae5-436e-4102-840d-4a9d8c8c9f0f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":101,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7f99744d-8b8b-4710-b1a5-7a3582898b24\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SAMPLETABLE_BIT\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3e3ec6b5-b6fb-48e7-86b9-2d335f8ae285\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HOSPITAL_DATA_STATS1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7b7d8fa9-2887-4378-aefc-f33eb5e3810f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"RECIPES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"41e03ff7-be05-4028-a7b3-4960aff1137f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SF_GOOD_DATA\",\"partitionProperties\":{\"numberOfPart\":963,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1106599457,\"tableSize\":23997,\"noOfPartition\":963,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"127bfd74-9bb1-4280-ab94-54fa256ebb89\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"AQIDATASET\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10924,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"0f911a6c-085c-4904-9fd6-8ae2d41b2172\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"DEPARTMENTS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":27,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"d9cd40e7-7b65-4844-8555-5496f56fde18\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_DATA_5M\",\"partitionProperties\":{\"numberOfPart\":14,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":5000000,\"tableSize\":265,\"noOfPartition\":14,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7ea9aaa9-9dfc-45da-a36d-c752acf3d101\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HEALTH_DATA_DOMAIN_BKP\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":70796,\"tableSize\":5,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"cea6fb18-1533-43b3-b6a1-1b572bc87e1c\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PARTSUPP\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":800000,\"tableSize\":35,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"b1b3f99e-6816-4cc7-8288-0ab0ff62f463\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"IOT_CSV\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3942,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"eb74fd9a-0b88-481c-ba26-3eda0f74f973\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CUSTOMER_NEW_TBL\",\"partitionProperties\":{\"numberOfPart\":8,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3000000,\"tableSize\":122,\"noOfPartition\":8,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"f277208f-24f9-4ed3-9f49-04e65092e699\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_GOOD\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"0e31977d-5e73-4124-84b8-7720470e029f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"TBL_ITEMTRANSACTIONS1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"81ea9ad3-5056-41be-9b17-6a2b39239491\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PART\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":200000,\"tableSize\":5,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"c4966ab5-70f4-4d5c-a361-b72104db23e5\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"REGIONS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":4,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"c2748d9d-00ef-48d9-a94e-c729a6b9e5c3\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_DETAILS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":99,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"40617a23-ce61-4764-bfb3-dae2bd7958fa\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"BRANCH\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":2,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"78410f3c-e525-477d-89ac-ad14e1012648\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"EMPLOYEES_ORACLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":4,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"2054ac97-61ba-4512-a155-137449f3224b\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CUSTOMER_TBL\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"6dfda086-059a-46bc-ae1d-74650201bd5e\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_DATA_5M_COPY\",\"partitionProperties\":{\"numberOfPart\":8,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":5000000,\"tableSize\":119,\"noOfPartition\":8,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7ae6c358-fecc-4354-84ec-7bff3a87be2b\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ALL_DATATYPES_SF\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3e1a01bc-6481-4606-bb06-7c3b095ca517\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ANALYTICS_CLOSED_ENCOUNTERS\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"6c80fff6-c826-4a85-ad37-aff3523c2d54\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"MONTHLY_SALES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":16,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"1be5f617-562f-49fd-a7ed-e963e23b08f4\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"VIEW\",\"tableName\":\"CATEGORY_1_PRODUCTS_V\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"e14312c6-a93a-4e40-a098-5e0c093e5538\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"RES_EMP_2M_PK\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":2000000,\"tableSize\":37,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"f8d72b5a-4a6b-4cfe-afc6-d13bf5bffdec\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"EXTERNAL TABLE\",\"tableName\":\"SAMPLE_EXT\",\"partitionProperties\":{\"numberOfPart\":5,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":48,\"noOfPartition\":5,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"e3fcdf52-8d0b-4920-8135-869324a2567f\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_DATA_2M\",\"partitionProperties\":{\"numberOfPart\":6,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":2162874,\"tableSize\":57,\"noOfPartition\":6,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"b568e1e1-ea2a-49e5-b6ff-20ff598d7dc1\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"CUSTOMERS_ABOVE_30\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":164,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"a102bb93-8222-4e43-a857-a7933d994bb7\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ALL_DATATYPES_B\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"2db43cff-92e9-493b-b1da-1c3cc3981451\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"AVHANA_TABLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"018ee58f-a75c-40e4-a5bc-f44ce2863b29\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"EMPLOYEEDATA\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"695859ce-e58c-475c-94c6-72f4d000a337\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"SALES_TBL\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"553cc457-e6f7-42da-8c5d-6a4894e43a71\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ICD_CODES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":100000,\"tableSize\":4,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"a5b7d7c5-8d48-4307-bd96-9c6bab86d1d2\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HIST_RULES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7914e2ec-fc85-40c9-b704-ab4d585309de\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"HCPHLOINCTABLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":164,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"78c10ee1-fabc-4948-ba0d-c0663283f245\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ENROLL_DETAIL_SNAPSHOT\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"89c36dab-7e7f-49fd-883b-fe99cd69fda3\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"RES_EMP_2M\",\"partitionProperties\":{\"numberOfPart\":9,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":8000000,\"tableSize\":146,\"noOfPartition\":9,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"5070cd14-b095-47dd-9944-c1ec6a6a6d93\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"AuthInfoTable\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"dfe35dee-8102-4740-8ec3-944a6abc4c94\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"ICD_LOOKUP_TABLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":26,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"7d6df9fd-4dea-4cb8-8bcd-65501c193cc3\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"PERSON_DESCRIPTION\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":89,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"8838a80f-9741-4adc-8cae-115b4c7b7156\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"snowflake_NYC_TAXI_DATA\",\"schemaName\":\"PUBLIC\",\"typeTable\":\"BASE TABLE\",\"tableName\":\"MASS_TEST_CAMEL_CASE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":4,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}],\"target\":[{\"id\":\"90afb351-ace3-4b90-81eb-c22e4290f675\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_1M_ORACLE_BAD\",\"partitionProperties\":{\"numberOfPart\":14,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":1000000,\"tableSize\":262,\"noOfPartition\":14,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"841465a4-1487-4c2c-83e5-4f573e14e0ec\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"CELLBYCELL_C\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":89,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"79d0c441-3ccf-47da-9193-4f244ff6afe5\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_50K_ORACLE_5K_BAD\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":50000,\"tableSize\":14,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"df909ba8-b808-488f-acf6-0a47ee1512a5\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"METRICS_20M__B1\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":\"EMP_ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[],\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":\"EMP_ID\",\"indexInfo\":null},{\"id\":\"27331ec5-7459-4d0f-b9c5-e88915aed09c\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_1M_ORACLE_dup\",\"partitionProperties\":{\"numberOfPart\":14,\"column\":\"ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"ID\"],\"foreignKeyInfo\":null,\"count\":1000000,\"tableSize\":264,\"noOfPartition\":14,\"partitionColumn\":\"ID\",\"indexInfo\":null},{\"id\":\"430ffb3d-124d-47a4-b5b5-94ac151aa04c\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_ORACLE\",\"partitionProperties\":{\"numberOfPart\":58,\"column\":\"ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"ID\"],\"foreignKeyInfo\":null,\"count\":5000000,\"tableSize\":1351,\"noOfPartition\":58,\"partitionColumn\":\"ID\",\"indexInfo\":null},{\"id\":\"3efc6531-34de-4e7d-9401-2fccfee4ac98\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"SAP_EMPLOYEES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":\"EMP_ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"EMP_ID\"],\"foreignKeyInfo\":null,\"count\":10,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":\"EMP_ID\",\"indexInfo\":null},{\"id\":\"430b81a1-678b-45ba-a21f-345df2917b46\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_50K_ORACLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":50000,\"tableSize\":14,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"3359edcd-4442-44b3-b530-fe42a51abbc2\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPTY_TAB\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"dbacb196-91b0-415d-b033-ee8e893e6049\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"ERP_EMPLOYEES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":\"EMP_ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"EMP_ID\"],\"foreignKeyInfo\":null,\"count\":8,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":\"EMP_ID\",\"indexInfo\":null},{\"id\":\"b5c25a57-4b33-4476-89f9-7f27711d1e4a\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_10K_ORACLE\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":3,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"cd90ce53-d430-4c48-9698-e75637f54386\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_1M_ORACLE\",\"partitionProperties\":{\"numberOfPart\":14,\"column\":\"ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"ID\"],\"foreignKeyInfo\":null,\"count\":1000000,\"tableSize\":262,\"noOfPartition\":14,\"partitionColumn\":\"ID\",\"indexInfo\":null},{\"id\":\"39517a13-109b-4059-810a-7ae85a704f65\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_ORACLE_dup\",\"partitionProperties\":{\"numberOfPart\":17,\"column\":\"ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"ID\"],\"foreignKeyInfo\":null,\"count\":1287547,\"tableSize\":344,\"noOfPartition\":17,\"partitionColumn\":\"ID\",\"indexInfo\":null},{\"id\":\"a3c0d712-1109-4e5a-9ec4-624a1b246976\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEES\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":\"EMPLOYEE_ID\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"EMPLOYEE_ID\"],\"foreignKeyInfo\":null,\"count\":4,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":\"EMPLOYEE_ID\",\"indexInfo\":null},{\"id\":\"71d59d15-3b62-4198-ace1-33fdd00ed915\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"IOT_CSV\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":462,\"tableSize\":0.13,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"85e0a637-221f-48a7-9da4-499575a1a524\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"CUSTOMER\",\"partitionProperties\":{\"numberOfPart\":17,\"column\":\"C_CUSTKEY\"},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"C_CUSTKEY\"],\"foreignKeyInfo\":null,\"count\":3000000,\"tableSize\":328,\"noOfPartition\":17,\"partitionColumn\":\"C_CUSTKEY\",\"indexInfo\":null},{\"id\":\"6d02c448-92af-4bac-9a1b-3db732f2f33d\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEEDATA\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":999,\"tableSize\":0.13,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"57701db7-c3ec-4c34-8e5e-e3fe2aa8245f\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"oracle_19C\",\"schemaName\":\"DATAQ\",\"typeTable\":\"TABLE\",\"tableName\":\"EMPLOYEE_10K_ORACLE_1K_BAD\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"defaultSchema\":null,\"schema\":null,\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":10000,\"tableSize\":3,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":100,\"threads\":2,\"memory\":8,\"test_case_name\":\"snowflake_NYC_TAXI_DATA_to_oracle_19C_compare\",\"stopDifferences\":false,\"dataProfileBasic\":false,\"chunks\":false,\"badRecordsCount\":15,\"comparisonType\":\"default\",\"comparisonTypeSelectedByUser\":false,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"mailingList\":\"\",\"template\":\"default\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"1306261810684\":{\"source\":\"db29eeb9-dff7-4dba-a05a-084ec9fb71bb\",\"target\":\"841465a4-1487-4c2c-83e5-4f573e14e0ec\",\"matchBoth\":\"a=b\",\"columnMapping\":[]},\"1411192572071\":{\"source\":\"b1b3f99e-6816-4cc7-8288-0ab0ff62f463\",\"target\":\"71d59d15-3b62-4198-ace1-33fdd00ed915\",\"matchBoth\":\"a=b\",\"columnMapping\":[]},\"1273819388608\":{\"source\":\"018ee58f-a75c-40e4-a5bc-f44ce2863b29\",\"target\":\"6d02c448-92af-4bac-9a1b-3db732f2f33d\",\"matchBoth\":\"a=b\",\"columnMapping\":[]}}},\"dataQualityState\":{},\"columnRules\":{},\"dataStandarizations\":{\"columnStandarization\":{\"data\":{},\"arrangeColumnsInOriginalOrder\":false,\"moveNewColumnsToRight\":false},\"dataStandarization\":{\"trimAllColumns\":false,\"data\":{}},\"sqlTransformation\":{\"editData\":null,\"sql\":\"\",\"sqlName\":\"\",\"data\":{}}},\"outputData\":[],\"notes\":[],\"unitTests\":[{\"unitTestCaseId\":\"1306261810684\",\"deleted\":false,\"saved\":true,\"updated\":false},{\"unitTestCaseId\":\"1411192572071\",\"deleted\":false,\"saved\":true,\"updated\":false},{\"unitTestCaseId\":\"1273819388608\",\"deleted\":false,\"saved\":true,\"updated\":false}]}",
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-15T22:02:12.638037026Z",
+    "syncType" : "FOLDER",
+    "user" : "vidya.Bhushan@dataq.io"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id" : 30,
+  "name" : "folder-del folder test",
+  "description" : " ",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ARCHIVE",
+  "metadata" : {
+    "createdBy" : "aman",
+    "updatedBy" : null,
+    "createdDate" : "2025-05-19T10:07:50Z",
+    "updatedDate" : "2025-11-12T11:25:17Z"
+  }
+}

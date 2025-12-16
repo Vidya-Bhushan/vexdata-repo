@@ -1,0 +1,178 @@
+{
+  "executorCores" : 2,
+  "executorMemory" : "5g",
+  "numExecutors" : 2,
+  "executeOn" : "LOCAL",
+  "flowName" : "dataq1697165905707",
+  "email" : [ ],
+  "flowDesc" : "DK-2643_2",
+  "hadoop" : false,
+  "livy" : false,
+  "root" : "dataCompare",
+  "API_APP_BUILD" : "6_94",
+  "UI_VERSION" : "6_94",
+  "APP_VERSION" : "6_94",
+  "LicensedName" : "6_94",
+  "parameters" : [ ],
+  "flowType" : "CELL BY CELL COMPARE",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "personal_Info" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "personal_Info",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 25,
+          "primaryKeys" : [ "person_Id", "person_Id" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "personal_Info" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "personal_Info",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 25,
+          "primaryKeys" : [ "person_Id", "person_Id" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "CELL_BY_CELL_COMPARE" ],
+      "filesCompareList" : [ {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "personal_Info" : "personal_Info"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "person_Id" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "person_Id",
+          "destColumn" : "person_Id"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "state",
+          "destColumn" : "state"
+        }, {
+          "srcColumn" : "secondary_Contact",
+          "destColumn" : "secondary_Contact"
+        }, {
+          "srcColumn" : "salary",
+          "destColumn" : "salary"
+        }, {
+          "srcColumn" : "primary_Contact",
+          "destColumn" : "primary_Contact"
+        }, {
+          "srcColumn" : "postcode",
+          "destColumn" : "postcode"
+        }, {
+          "srcColumn" : "person_Id",
+          "destColumn" : "person_Id"
+        }, {
+          "srcColumn" : "occupation",
+          "destColumn" : "occupation"
+        }, {
+          "srcColumn" : "last_Name",
+          "destColumn" : "last_Name"
+        }, {
+          "srcColumn" : "height",
+          "destColumn" : "height"
+        }, {
+          "srcColumn" : "gender",
+          "destColumn" : "gender"
+        }, {
+          "srcColumn" : "first_Name",
+          "destColumn" : "first_Name"
+        }, {
+          "srcColumn" : "email_Address",
+          "destColumn" : "email_Address"
+        }, {
+          "srcColumn" : "dob",
+          "destColumn" : "dob"
+        }, {
+          "srcColumn" : "country",
+          "destColumn" : "country"
+        }, {
+          "srcColumn" : "city",
+          "destColumn" : "city"
+        }, {
+          "srcColumn" : "blood_Group",
+          "destColumn" : "blood_Group"
+        }, {
+          "srcColumn" : "address",
+          "destColumn" : "address"
+        } ]
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "OUTER_JOIN_BASED_COMPARE" : "true",
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "groupName" : "dev",
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"reports\":[\"Cell By Cell\"],\"tablesList\":{\"source\":[{\"id\":\"e17a1d6f-9391-4d8d-ac84-5543c20738e9\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"personal_Info\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"blood_Group\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"city\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"country\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_Address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"height\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"occupation\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"person_Id\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"primary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"salary\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"secondary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"state\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"person_Id\",\"person_Id\"],\"foreignKeyInfo\":null,\"count\":25,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"person_Id\",\"indexInfo\":null}],\"target\":[{\"id\":\"3b1f332f-b6e0-4601-8d35-c64763566257\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"personal_Info\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"blood_Group\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"city\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"country\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_Address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"height\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"occupation\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"person_Id\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"primary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"salary\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"secondary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"state\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"person_Id\",\"person_Id\"],\"foreignKeyInfo\":null,\"count\":25,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"person_Id\",\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":5,\"test_case_name\":\"DK-2643_2\",\"badRecordsCount\":15,\"comparisonType\":\"OUTER_JOIN_BASED_COMPARE\",\"comparisonTypeSelectedByUser\":false,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"mailingList\":\"\",\"template\":\"default\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"d232c529-5c43-4143-bb0f-d10e00801566\":{\"source\":\"e17a1d6f-9391-4d8d-ac84-5543c20738e9\",\"target\":\"3b1f332f-b6e0-4601-8d35-c64763566257\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"8030feee-58be-49c3-9a0d-4767d780e91f\",\"sourceColumnName\":\"state\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"state\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"53aeaa33-f112-437f-bf2e-42700f2da16a\",\"sourceColumnName\":\"secondary_Contact\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"secondary_Contact\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"3681144f-2403-4823-bca6-c2383c5f190a\",\"sourceColumnName\":\"salary\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"salary\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"81ea199f-646a-468e-969d-87f3e0e9e091\",\"sourceColumnName\":\"primary_Contact\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"primary_Contact\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8c3a8b89-9e3f-4bd3-ab5b-dc62a6d3f3a5\",\"sourceColumnName\":\"postcode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"postcode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"3d5e18c8-b7fa-4d5b-a0cf-ce517a52e4a8\",\"sourceColumnName\":\"person_Id\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"person_Id\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"c31685e4-aeec-43cb-bc1a-e7bac7405e2c\",\"sourceColumnName\":\"occupation\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"occupation\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"b9596017-98fd-454f-892d-4c2dceababd3\",\"sourceColumnName\":\"last_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"last_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2a2f16a6-eb96-4a5f-9082-272c1f1c1a76\",\"sourceColumnName\":\"height\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"height\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"0485210f-d7d5-4896-abcd-ae6feeeae96d\",\"sourceColumnName\":\"gender\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"gender\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"cbb63b05-0aaa-4970-9d93-ed8c28dae5ab\",\"sourceColumnName\":\"first_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"first_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"f7647b6a-371a-4b18-9ca3-5ec188f6bc49\",\"sourceColumnName\":\"email_Address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"email_Address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"d2262376-f436-4a45-85b3-a20a50154ae6\",\"sourceColumnName\":\"dob\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"dob\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"83e975bc-7832-4314-a71d-0260e3b41596\",\"sourceColumnName\":\"country\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"country\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8359684c-4b37-4f31-9418-c9d84c8401b5\",\"sourceColumnName\":\"city\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"city\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"0c63f86a-a289-4916-b56b-9c27d63aea5a\",\"sourceColumnName\":\"blood_Group\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"blood_Group\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"e2a9e085-e5cb-46e1-90a9-f7b172115d01\",\"sourceColumnName\":\"address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"}}},\"dataQualityState\":{}}",
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-15T22:02:13.259766961Z",
+    "syncType" : "FOLDER",
+    "user" : "vidya.Bhushan@dataq.io"
+  }
+}

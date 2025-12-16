@@ -1,0 +1,18 @@
+{
+  "id" : 38,
+  "name" : "test_project",
+  "description" : " ",
+  "fileType" : "project",
+  "projectLevel" : "/35",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ARCHIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "aman",
+    "updatedBy" : null,
+    "createdDate" : "2025-05-22T11:29:24Z",
+    "updatedDate" : "2025-11-12T11:25:17Z"
+  }
+}

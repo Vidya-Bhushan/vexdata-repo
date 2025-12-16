@@ -1,0 +1,18 @@
+{
+  "id" : 21,
+  "name" : "test varaibles",
+  "description" : "test varaibles",
+  "fileType" : "project",
+  "projectLevel" : "/22",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "vidya.Bhushan",
+    "updatedBy" : "dhiraj.peechara@dataq.io",
+    "createdDate" : "2025-04-01T12:46:25Z",
+    "updatedDate" : "2025-04-10T13:58:44Z"
+  }
+}

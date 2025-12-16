@@ -1,0 +1,18 @@
+{
+  "projectId" : 21,
+  "parameters" : [ {
+    "key" : "large_data_conn",
+    "value" : "large_data",
+    "type" : null,
+    "projectId" : 21
+  }, {
+    "key" : "postgres_conn",
+    "value" : "postgres",
+    "type" : null,
+    "projectId" : 21
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-15T22:02:15.218468569Z",
+    "updatedBy" : "system-sync"
+  }
+}

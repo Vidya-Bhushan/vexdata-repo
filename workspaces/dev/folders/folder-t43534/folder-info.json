@@ -1,0 +1,16 @@
+{
+  "id" : 35,
+  "name" : "folder-t43534",
+  "description" : " ",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "aman",
+    "updatedBy" : null,
+    "createdDate" : "2025-05-22T11:24:25Z",
+    "updatedDate" : "2025-05-22T11:24:25Z"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id" : 22,
+  "name" : "folder-my projects",
+  "description" : "my projects",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "dhiraj.peechara",
+    "updatedBy" : null,
+    "createdDate" : "2025-04-10T13:58:04Z",
+    "updatedDate" : "2025-04-10T13:58:04Z"
+  }
+}

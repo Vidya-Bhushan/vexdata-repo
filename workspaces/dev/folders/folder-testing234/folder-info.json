@@ -1,0 +1,16 @@
+{
+  "id" : 32,
+  "name" : "folder-testing234",
+  "description" : " ",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ARCHIVE",
+  "metadata" : {
+    "createdBy" : "aman",
+    "updatedBy" : null,
+    "createdDate" : "2025-05-22T10:09:41Z",
+    "updatedDate" : "2025-11-12T11:25:17Z"
+  }
+}

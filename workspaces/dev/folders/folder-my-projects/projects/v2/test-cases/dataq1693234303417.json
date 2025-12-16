@@ -1,0 +1,212 @@
+{
+  "executorCores" : 2,
+  "executorMemory" : "5g",
+  "numExecutors" : 2,
+  "executeOn" : "LOCAL",
+  "flowName" : "dataq1693234303417",
+  "email" : [ ],
+  "flowDesc" : "test-520-outerjoin",
+  "hadoop" : false,
+  "livy" : false,
+  "root" : "dataCompare",
+  "API_APP_BUILD" : "6_81",
+  "UI_VERSION" : "6_81",
+  "APP_VERSION" : "6_81",
+  "LicensedName" : "6_81",
+  "parameters" : [ ],
+  "flowType" : "CELL BY CELL COMPARE",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "tims_db",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "tims_db"
+        },
+        "tableNamesList" : {
+          "demo_patient_hist" : null,
+          "demo_patient_hist_3" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "demo_patient_hist",
+          "tblSize" : "1",
+          "tblRecordCount" : 3013,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "demo_patient_hist_3",
+          "tblSize" : "1",
+          "tblRecordCount" : 3014,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "tims_db",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "tims_db"
+        },
+        "tableNamesList" : {
+          "demo_patient_hist" : null,
+          "demo_patient_hist_3" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "demo_patient_hist",
+          "tblSize" : "1",
+          "tblRecordCount" : 3013,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "demo_patient_hist_3",
+          "tblSize" : "1",
+          "tblRecordCount" : 3014,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "CELL_BY_CELL_COMPARE" ],
+      "filesCompareList" : [ {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "demo_patient_hist" : "demo_patient_hist"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "patient_id" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "patient_id",
+          "destColumn" : "patient_id"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "patient_id",
+          "destColumn" : "patient_id"
+        }, {
+          "srcColumn" : "last_name",
+          "destColumn" : "last_name"
+        }, {
+          "srcColumn" : "gender",
+          "destColumn" : "gender"
+        }, {
+          "srcColumn" : "first_name",
+          "destColumn" : "first_name"
+        }, {
+          "srcColumn" : "email",
+          "destColumn" : "email"
+        }, {
+          "srcColumn" : "dob",
+          "destColumn" : "dob"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "demo_patient_hist_3" : "demo_patient_hist_3"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "patient_id" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "patient_id",
+          "destColumn" : "patient_id"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "patient_id",
+          "destColumn" : "patient_id"
+        }, {
+          "srcColumn" : "last_name",
+          "destColumn" : "last_name"
+        }, {
+          "srcColumn" : "gender",
+          "destColumn" : "gender"
+        }, {
+          "srcColumn" : "first_name",
+          "destColumn" : "first_name"
+        }, {
+          "srcColumn" : "email",
+          "destColumn" : "email"
+        }, {
+          "srcColumn" : "dob",
+          "destColumn" : "dob"
+        }, {
+          "srcColumn" : "address",
+          "destColumn" : "address"
+        } ]
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "ENABLE_SOURCE_COMPARE" : "true",
+        "OUTER_JOIN_BASED_COMPARE" : "true",
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "groupName" : "dev",
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"reports\":[\"Cell By Cell\"],\"tablesList\":{\"source\":[{\"id\":\"b99d8ece-b232-4c39-a485-af8202bfab09\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"tims_db\",\"schemaName\":\"tims_db\",\"tableName\":\"demo_patient_hist\",\"schema\":[{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"patient_id\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3013,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"dae23062-0a4b-4b0f-bfdb-7b93bd728b73\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"tims_db\",\"schemaName\":\"tims_db\",\"tableName\":\"demo_patient_hist_3\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"patient_id\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3014,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}],\"target\":[{\"id\":\"dde726e1-b134-45c0-9e81-de709ed9d0c5\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"tims_db\",\"schemaName\":\"tims_db\",\"tableName\":\"demo_patient_hist\",\"schema\":[{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"patient_id\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3013,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"b7d67f3a-41b5-4500-94ee-646996cdf551\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"tims_db\",\"schemaName\":\"tims_db\",\"tableName\":\"demo_patient_hist_3\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"patient_id\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":3014,\"tableSize\":1,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":5,\"test_case_name\":\"test-520-outerjoin\",\"sourceCompare\":true,\"outerJoinCompare\":true,\"badRecordsCount\":15,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"mailingList\":\"\",\"template\":\"default\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"dbdeb1bf-7007-4a8e-81fa-0a88910d1fbd\":{\"source\":\"b99d8ece-b232-4c39-a485-af8202bfab09\",\"target\":\"dde726e1-b134-45c0-9e81-de709ed9d0c5\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"7319555a-256c-4b7a-bfc4-52dd03b77097\",\"sourceColumnName\":\"patient_id\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"patient_id\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"1523b7c7-4761-46fb-9a49-703298516fa9\",\"sourceColumnName\":\"last_name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"last_name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"0448ec42-2a99-40eb-972f-02858720c24b\",\"sourceColumnName\":\"gender\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"gender\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"a190c86b-2f97-45aa-b51f-9132d1a85813\",\"sourceColumnName\":\"first_name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"first_name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"a11e8c82-460c-4f98-8a27-c3ceaff8d672\",\"sourceColumnName\":\"email\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"email\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"74e2349a-09da-4c9b-a22d-f4ab67b98de1\",\"sourceColumnName\":\"dob\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"dob\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"d51f732c-eda1-42bc-b843-cfee6f0be551\":{\"source\":\"dae23062-0a4b-4b0f-bfdb-7b93bd728b73\",\"target\":\"b7d67f3a-41b5-4500-94ee-646996cdf551\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"11bc0e53-5238-45b2-a1a0-45c3c479635a\",\"sourceColumnName\":\"patient_id\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"patient_id\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"2a28be8b-c103-494f-ab8d-594673d4f554\",\"sourceColumnName\":\"last_name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"last_name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"e3ddc615-265e-4754-911b-d418b403571a\",\"sourceColumnName\":\"gender\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"gender\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"279a4a81-c98f-4697-afab-827be7699059\",\"sourceColumnName\":\"first_name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"first_name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"91ff99d4-a997-4d9b-99e6-e6731a88e66b\",\"sourceColumnName\":\"email\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"email\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"37d38d99-d01c-4207-ab7d-27fccf2cbcfd\",\"sourceColumnName\":\"dob\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"dob\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"95a1f6c8-56af-454a-bccd-68407d62c4ce\",\"sourceColumnName\":\"address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"}}},\"dataQualityState\":{}}",
+  "session_id" : "9ef228f4-cda1-47b9-b22f-06d0d12d4945",
+  "session.id" : "9ef228f4-cda1-47b9-b22f-06d0d12d4945",
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-15T22:02:13.253205883Z",
+    "syncType" : "FOLDER",
+    "user" : "vidya.Bhushan@dataq.io"
+  }
+}
