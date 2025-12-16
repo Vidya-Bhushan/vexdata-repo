@@ -2,7 +2,7 @@
   "id" : 18,
   "name" : "p3",
   "description" : "p3",
-  "fileType" : "project",
+  "fileType" : "PROJECT",
   "projectLevel" : "/22",
   "groupName" : "dev",
   "iconId" : "0",
@@ -10,9 +10,9 @@
   "enabled" : true,
   "endDate" : null,
   "metadata" : {
-    "createdBy" : "dhiraj.peechara",
-    "updatedBy" : "dhiraj.peechara@dataq.io",
-    "createdDate" : "2025-03-16T21:39:53Z",
-    "updatedDate" : "2025-04-10T13:58:16Z"
+    "createdBy" : "system_pull",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-12-16T16:31:51Z",
+    "updatedDate" : "2025-12-16T16:31:51Z"
   }
 }

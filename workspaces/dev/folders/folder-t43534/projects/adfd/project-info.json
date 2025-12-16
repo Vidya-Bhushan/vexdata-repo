@@ -2,17 +2,17 @@
   "id" : 37,
   "name" : "adfd",
   "description" : " ",
-  "fileType" : "project",
+  "fileType" : "PROJECT",
   "projectLevel" : "/35",
   "groupName" : "dev",
   "iconId" : "0",
-  "status" : "ARCHIVE",
+  "status" : "ACTIVE",
   "enabled" : true,
   "endDate" : null,
   "metadata" : {
-    "createdBy" : "aman",
-    "updatedBy" : null,
-    "createdDate" : "2025-05-22T11:24:44Z",
-    "updatedDate" : "2025-11-12T11:25:17Z"
+    "createdBy" : "system_pull",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-12-16T16:31:51Z",
+    "updatedDate" : "2025-12-16T16:31:51Z"
   }
 }

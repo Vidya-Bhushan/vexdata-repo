@@ -2,7 +2,7 @@
   "id" : 39,
   "name" : "t7",
   "description" : " ",
-  "fileType" : "project",
+  "fileType" : "PROJECT",
   "projectLevel" : "/35",
   "groupName" : "dev",
   "iconId" : "0",
@@ -10,9 +10,9 @@
   "enabled" : true,
   "endDate" : null,
   "metadata" : {
-    "createdBy" : "aman",
-    "updatedBy" : null,
-    "createdDate" : "2025-05-22T11:39:23Z",
-    "updatedDate" : "2025-05-22T11:39:23Z"
+    "createdBy" : "system_pull",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-12-16T16:31:51Z",
+    "updatedDate" : "2025-12-16T16:31:51Z"
   }
 }

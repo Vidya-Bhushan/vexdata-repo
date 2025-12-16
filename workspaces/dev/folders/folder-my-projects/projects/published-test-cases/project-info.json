@@ -2,7 +2,7 @@
   "id" : 19,
   "name" : "Published Test Cases",
   "description" : "Published Test Cases",
-  "fileType" : "project",
+  "fileType" : "PROJECT",
   "projectLevel" : "/22",
   "groupName" : "dev",
   "iconId" : "0",
@@ -10,9 +10,9 @@
   "enabled" : true,
   "endDate" : null,
   "metadata" : {
-    "createdBy" : "vidya.Bhushan",
-    "updatedBy" : "dhiraj.peechara@dataq.io",
-    "createdDate" : "2025-03-17T10:45:33Z",
-    "updatedDate" : "2025-04-10T13:58:39Z"
+    "createdBy" : "system_pull",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-12-16T16:31:51Z",
+    "updatedDate" : "2025-12-16T16:31:51Z"
   }
 }

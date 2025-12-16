@@ -2,15 +2,15 @@
   "id" : 30,
   "name" : "folder-del folder test",
   "description" : " ",
-  "fileType" : "folder",
+  "fileType" : "FOLDER",
   "projectLevel" : "/",
   "groupName" : "dev",
   "iconId" : "0",
-  "status" : "ARCHIVE",
+  "status" : "ACTIVE",
   "metadata" : {
-    "createdBy" : "aman",
-    "updatedBy" : null,
-    "createdDate" : "2025-05-19T10:07:50Z",
-    "updatedDate" : "2025-11-12T11:25:17Z"
+    "createdBy" : "system_pull",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-12-16T16:31:51Z",
+    "updatedDate" : "2025-12-16T16:31:51Z"
   }
 }
