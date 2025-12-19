@@ -1,6 +1,6 @@
 {
   "id" : 69,
-  "name" : "folder-t1234",
+  "name" : "t1234",
   "description" : "t1234",
   "fileType" : "folder",
   "projectLevel" : "/58",
@@ -9,8 +9,8 @@
   "status" : "ACTIVE",
   "metadata" : {
     "createdBy" : "dataops",
-    "updatedBy" : null,
+    "updatedBy" : "dataops",
     "createdDate" : "2025-12-19T12:28:17Z",
-    "updatedDate" : null
+    "updatedDate" : "2025-12-19T14:09:58Z"
   }
 }

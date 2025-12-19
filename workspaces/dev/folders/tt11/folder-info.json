@@ -1,6 +1,6 @@
 {
   "id" : 68,
-  "name" : "folder-tt11",
+  "name" : "tt11",
   "description" : "tt11",
   "fileType" : "folder",
   "projectLevel" : "/58",
@@ -9,8 +9,8 @@
   "status" : "ACTIVE",
   "metadata" : {
     "createdBy" : "dataops",
-    "updatedBy" : null,
+    "updatedBy" : "dataops",
     "createdDate" : "2025-12-19T12:18:15Z",
-    "updatedDate" : null
+    "updatedDate" : "2025-12-19T14:09:58Z"
   }
 }
