@@ -1,0 +1,16 @@
+{
+  "id" : 67,
+  "name" : "folder-tt",
+  "description" : "tt",
+  "fileType" : "folder",
+  "projectLevel" : "/58",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "dataops",
+    "updatedBy" : null,
+    "createdDate" : "2025-12-18T19:02:19Z",
+    "updatedDate" : null
+  }
+}
