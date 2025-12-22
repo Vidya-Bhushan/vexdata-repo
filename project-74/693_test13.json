@@ -1,0 +1,16 @@
+{
+  "flow_id" : 693,
+  "flow_name" : "test13",
+  "dms_project_id" : 74,
+  "flow_type" : "DATA QUALITY",
+  "modified_by" : "dataops",
+  "active" : true,
+  "input_data" : null,
+  "created_date" : "2025-12-19T12:11:58.000Z",
+  "updated_date" : "2025-12-22T16:27:26.000Z",
+  "git_metadata" : {
+    "exported_at" : "2025-12-22T21:57:27.271Z",
+    "format_version" : "1.0",
+    "source_system" : "DMS"
+  }
+}
