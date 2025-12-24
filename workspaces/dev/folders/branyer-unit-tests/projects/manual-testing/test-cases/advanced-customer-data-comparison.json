@@ -1,0 +1,31 @@
+{
+  "flowName" : "Advanced Customer Data Comparison",
+  "flowDesc" : "Compare customer data between production and staging environments",
+  "flowType" : "CELL_BY_CELL_COMPARE",
+  "groupName" : "dev",
+  "executorCores" : 2,
+  "executorMemory" : "2g",
+  "numExecutors" : 1,
+  "executeOn" : "LOCAL",
+  "hadoop" : false,
+  "livy" : false,
+  "root" : "dataCompare",
+  "parameters" : [ ],
+  "email" : [ ],
+  "sourceTables" : [ {
+    "connectionName" : "employee_db",
+    "schemaName" : "employee",
+    "tableName" : "departments"
+  } ],
+  "targetTables" : [ {
+    "connectionName" : "employee_db",
+    "schemaName" : "employee",
+    "tableName" : "departments"
+  } ],
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-24T01:24:15.802670077Z",
+    "syncType" : "FOLDER",
+    "user" : "system"
+  }
+}
