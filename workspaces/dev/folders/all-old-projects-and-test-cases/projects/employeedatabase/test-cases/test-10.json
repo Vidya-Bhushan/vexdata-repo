@@ -153,9 +153,9 @@
   "email" : [ ],
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:00.042323680Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:24:56.890313366Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
