@@ -23,9 +23,9 @@
     "tableName" : "departments"
   } ],
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:15.802670077Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:27:54.397450944Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }

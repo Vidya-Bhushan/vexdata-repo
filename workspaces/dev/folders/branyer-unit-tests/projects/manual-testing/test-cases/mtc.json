@@ -48,9 +48,9 @@
   "email" : [ ],
   "flowType" : "MANUAL_TESTING",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:15.808281620Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:27:54.398855196Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
