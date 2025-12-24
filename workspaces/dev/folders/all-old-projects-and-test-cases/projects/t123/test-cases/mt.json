@@ -14,9 +14,9 @@
   "parameters" : [ ],
   "email" : [ ],
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:08.883484150Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:26:58.912628263Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
