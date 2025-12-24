@@ -1,0 +1,150 @@
+{
+  "executorCores" : 2,
+  "executorMemory" : "5g",
+  "numExecutors" : 2,
+  "executeOn" : "LOCAL",
+  "flowName" : "dataq1765900508114",
+  "email" : [ ],
+  "flowDesc" : "test",
+  "hadoop" : false,
+  "livy" : false,
+  "root" : "dataCompare",
+  "parameters" : [ ],
+  "flowType" : "CELL BY CELL COMPARE",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "CSV",
+        "datasetPath" : "s3://dataqio/sample_csv/region/east/east_sales_q1.csv",
+        "tableProperties" : [ {
+          "tblName" : "test",
+          "tblSize" : "0",
+          "tblRecordCount" : 8
+        } ],
+        "tableNamesList" : {
+          "test" : null
+        },
+        "params" : {
+          "dropBadRecords" : true,
+          "dropRecordsWithAllNulls" : false,
+          "fileLocation" : "S3"
+        },
+        "columns" : [ ],
+        "datasetDelimiter" : ",",
+        "header" : true,
+        "inferSchema" : false,
+        "multiLine" : false,
+        "startingPosition" : "1"
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "CSV",
+        "datasetPath" : "s3://dataqio/sample_csv/region/east/east_sales_q1.csv",
+        "tableProperties" : [ {
+          "tblName" : "test",
+          "tblSize" : "0",
+          "tblRecordCount" : 8
+        } ],
+        "tableNamesList" : {
+          "test" : null
+        },
+        "params" : {
+          "dropBadRecords" : true,
+          "dropRecordsWithAllNulls" : false,
+          "fileLocation" : "S3"
+        },
+        "columns" : [ ],
+        "datasetDelimiter" : ",",
+        "header" : true,
+        "inferSchema" : false,
+        "multiLine" : false,
+        "startingPosition" : "1"
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "CELL_BY_CELL_COMPARE" ],
+      "filesCompareList" : [ {
+        "unitTestCaseId" : 1277527988874,
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "test" : "test"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ ],
+        "compareKeyNew" : [ ],
+        "columnMapping" : [ {
+          "srcColumn" : "sale_date",
+          "destColumn" : "sale_date"
+        }, {
+          "srcColumn" : "customer_id",
+          "destColumn" : "customer_id"
+        }, {
+          "srcColumn" : "discount",
+          "destColumn" : "discount"
+        }, {
+          "srcColumn" : "price",
+          "destColumn" : "price"
+        }, {
+          "srcColumn" : "quantity",
+          "destColumn" : "quantity"
+        }, {
+          "srcColumn" : "product",
+          "destColumn" : "product"
+        }, {
+          "srcColumn" : "region",
+          "destColumn" : "region"
+        }, {
+          "srcColumn" : "transaction_id",
+          "destColumn" : "transaction_id"
+        } ],
+        "keyValueProperties" : {
+          "DETECT_COMPARE_KEYS" : "true",
+          "DETECT_COMPARE_KEYS_LIMIT" : "5"
+        }
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "BAD_RECORD_COUNT" : "10"
+      }
+    }
+  },
+  "groupName" : "dev",
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"schema_compare_explicitly\":false,\"tablesList\":{\"source\":[{\"id\":\"371430eb-d95b-4cbb-8824-d4ea9ebfb11b\",\"from\":\"source\",\"type\":\"CSV\",\"tableSize\":0,\"fileName\":\"\",\"filePath\":\"\",\"s3ToHdf\":\"\",\"sftpDataset\":false,\"sftpType\":\"\",\"sftpFilePath\":\"\",\"fileLocation\":\"S3\",\"azureDataset\":false,\"azureType\":\"\",\"azureFilePath\":\"\",\"googleDataset\":false,\"googleType\":\"\",\"googleFilePath\":\"\",\"s3Url\":\"s3://dataqio/sample_csv/region/east/east_sales_q1.csv\",\"dropRecordsWithAllNulls\":false,\"tableName\":\"test\",\"delimiter\":\",\",\"startingPosition\":\"1\",\"multiline\":false,\"dropBadRecords\":true,\"header\":true,\"inferSchema\":false,\"sampleData\":[{\"transaction_id\":\"3001\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"3\",\"price\":\"1200.00\",\"discount\":\"100.00\",\"customer_id\":\"C021\",\"sale_date\":\"2024-03-01\"},{\"transaction_id\":\"3002\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"7\",\"price\":\"800.00\",\"discount\":\"80.00\",\"customer_id\":\"C022\",\"sale_date\":\"2024-03-05\"},{\"transaction_id\":\"3003\",\"region\":\"east\",\"product\":\"tablet\",\"quantity\":\"5\",\"price\":\"500.00\",\"discount\":\"40.00\",\"customer_id\":\"C023\",\"sale_date\":\"2024-03-10\"},{\"transaction_id\":\"3004\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"2\",\"price\":\"1200.00\",\"discount\":\"75.00\",\"customer_id\":\"C024\",\"sale_date\":\"2024-03-15\"},{\"transaction_id\":\"3005\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"9\",\"price\":\"800.00\",\"discount\":\"150.00\",\"customer_id\":\"C025\",\"sale_date\":\"2024-03-20\"},{\"transaction_id\":\"3006\",\"region\":\"east\",\"product\":\"tablet\",\"quantity\":\"4\",\"price\":\"500.00\",\"discount\":\"35.00\",\"customer_id\":\"C026\",\"sale_date\":\"2024-03-25\"},{\"transaction_id\":\"3007\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"6\",\"price\":\"1200.00\",\"discount\":\"200.00\",\"customer_id\":\"C027\",\"sale_date\":\"2024-03-28\"},{\"transaction_id\":\"3008\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"3\",\"price\":\"800.00\",\"discount\":\"50.00\",\"customer_id\":\"C028\",\"sale_date\":\"2024-03-29\"}],\"schema\":[{\"columnName\":\"transaction_id\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"region\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"product\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"quantity\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"price\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"discount\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"customer_id\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"sale_date\",\"columnType\":\"string\",\"nullable\":true}],\"count\":8,\"isPrimaryDataset\":true}],\"target\":[{\"id\":\"9494e3c0-d6b8-4bb0-9804-ba6938cc58f7\",\"from\":\"target\",\"type\":\"CSV\",\"tableSize\":0,\"fileName\":\"\",\"filePath\":\"\",\"s3ToHdf\":\"\",\"sftpDataset\":false,\"sftpType\":\"\",\"sftpFilePath\":\"\",\"fileLocation\":\"S3\",\"azureDataset\":false,\"azureType\":\"\",\"azureFilePath\":\"\",\"googleDataset\":false,\"googleType\":\"\",\"googleFilePath\":\"\",\"s3Url\":\"s3://dataqio/sample_csv/region/east/east_sales_q1.csv\",\"dropRecordsWithAllNulls\":false,\"tableName\":\"test\",\"delimiter\":\",\",\"startingPosition\":\"1\",\"multiline\":false,\"dropBadRecords\":true,\"header\":true,\"inferSchema\":false,\"sampleData\":[{\"transaction_id\":\"3001\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"3\",\"price\":\"1200.00\",\"discount\":\"100.00\",\"customer_id\":\"C021\",\"sale_date\":\"2024-03-01\"},{\"transaction_id\":\"3002\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"7\",\"price\":\"800.00\",\"discount\":\"80.00\",\"customer_id\":\"C022\",\"sale_date\":\"2024-03-05\"},{\"transaction_id\":\"3003\",\"region\":\"east\",\"product\":\"tablet\",\"quantity\":\"5\",\"price\":\"500.00\",\"discount\":\"40.00\",\"customer_id\":\"C023\",\"sale_date\":\"2024-03-10\"},{\"transaction_id\":\"3004\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"2\",\"price\":\"1200.00\",\"discount\":\"75.00\",\"customer_id\":\"C024\",\"sale_date\":\"2024-03-15\"},{\"transaction_id\":\"3005\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"9\",\"price\":\"800.00\",\"discount\":\"150.00\",\"customer_id\":\"C025\",\"sale_date\":\"2024-03-20\"},{\"transaction_id\":\"3006\",\"region\":\"east\",\"product\":\"tablet\",\"quantity\":\"4\",\"price\":\"500.00\",\"discount\":\"35.00\",\"customer_id\":\"C026\",\"sale_date\":\"2024-03-25\"},{\"transaction_id\":\"3007\",\"region\":\"east\",\"product\":\"laptop\",\"quantity\":\"6\",\"price\":\"1200.00\",\"discount\":\"200.00\",\"customer_id\":\"C027\",\"sale_date\":\"2024-03-28\"},{\"transaction_id\":\"3008\",\"region\":\"east\",\"product\":\"phone\",\"quantity\":\"3\",\"price\":\"800.00\",\"discount\":\"50.00\",\"customer_id\":\"C028\",\"sale_date\":\"2024-03-29\"}],\"schema\":[{\"columnName\":\"transaction_id\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"region\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"product\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"quantity\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"price\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"discount\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"customer_id\",\"columnType\":\"string\",\"nullable\":true},{\"columnName\":\"sale_date\",\"columnType\":\"string\",\"nullable\":true}],\"count\":8,\"isPrimaryDataset\":true}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":5,\"comparisonType\":\"default\",\"comparisonTypeSelectedByUser\":false,\"badRecordsCount\":10,\"countsCompareTolerance\":0,\"stopDifferences\":false,\"dataProfileBasic\":false,\"IGNORE_ADDITIONAL_COLUMN_FROM_SOURCE\":false,\"IGNORE_ADDITIONAL_COLUMN_FROM_TARGET\":false,\"IGNORE_COLUMN_CASE_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_DATATYPE_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_PRIMARYKEY_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_INDEXKEY_SCHEMA_COMPARE\":false,\"IGNORE_COLUMN_NULLABILITY_SCHEMA_COMPARE\":false,\"chunks\":false,\"notification\":{\"email\":false,\"slack\":false,\"template\":\"default\",\"mailingList\":\"\",\"notifyOn\":\"ALWAYS\",\"edit\":false},\"test_case_name\":\"test\",\"data_monitoring\":false,\"dimensions\":[],\"aggregations\":[],\"FILE_CREATED_TIME\":\"CURRENT_TIME\",\"FILE_DATE_FORMAT\":\"\"},\"mapping\":{\"mappings\":{\"1277527988874\":{\"source\":\"371430eb-d95b-4cbb-8824-d4ea9ebfb11b\",\"target\":\"9494e3c0-d6b8-4bb0-9804-ba6938cc58f7\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"a7e82a08-2373-4612-a22c-350b6be15ae2\",\"sourceColumnName\":\"sale_date\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"sale_date\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"99ddd72a-c015-41f2-9801-eb4b27f15528\",\"sourceColumnName\":\"customer_id\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"customer_id\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"ac90bb08-f989-4190-9d75-67bd5711788c\",\"sourceColumnName\":\"discount\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"discount\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"62d9048c-e0da-4049-99c1-732dd792e7a7\",\"sourceColumnName\":\"price\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"price\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"9ce33ad3-b20a-4f86-9c1f-969aed4a96dc\",\"sourceColumnName\":\"quantity\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"quantity\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"5a2f703f-77d9-40bf-a9dd-2c2733d88933\",\"sourceColumnName\":\"product\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"product\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"916f6b83-b9bd-4702-acf5-f197481d20d0\",\"sourceColumnName\":\"region\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"region\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false},{\"id\":\"a0bd35b0-f514-44df-934a-1133db12e0c7\",\"sourceColumnName\":\"transaction_id\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"\",\"sourceNullable\":true,\"targetColumnName\":\"transaction_id\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"\",\"targetNullable\":true,\"isPrimaryKey\":false,\"isBackendPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\",\"detectCompareKeys\":true}}},\"dataQualityState\":{},\"columnRules\":{},\"dynamicSql\":\"\",\"dynamicSQLEnabled\":false,\"dataStandarizations\":{\"columnStandarization\":{\"data\":{},\"arrangeColumnsInOriginalOrder\":false,\"moveNewColumnsToRight\":false},\"sqlTransformation\":{\"sql\":\"\",\"sqlName\":\"\",\"editData\":null,\"data\":{}}},\"outputData\":[],\"notes\":[],\"unitTests\":[{\"unitTestCaseId\":\"1277527988874\",\"deleted\":false,\"saved\":true,\"updated\":false}]}",
+  "syncInfo" : {
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:22:22.731137608Z",
+    "syncType" : "PROJECT",
+    "user" : "system"
+  }
+}
