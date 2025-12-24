@@ -146,7 +146,7 @@
   "flowType" : "SCHEMA COMPARE,CELL BY CELL COMPARE",
   "syncInfo" : {
     "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:23:52.563352223Z",
+    "timestamp" : "2025-12-24T01:23:59.952591488Z",
     "syncType" : "FOLDER",
     "user" : "system"
   }
