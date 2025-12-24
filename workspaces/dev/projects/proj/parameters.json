@@ -1,0 +1,13 @@
+{
+  "projectId" : 793,
+  "parameters" : [ {
+    "key" : "dwh_connection_nyc",
+    "value" : "new_snowflake_rsa_encrypted",
+    "type" : null,
+    "projectId" : 793
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-24T01:22:26.399214401Z",
+    "updatedBy" : "system-sync"
+  }
+}
