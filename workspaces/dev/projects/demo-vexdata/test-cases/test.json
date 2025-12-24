@@ -102,4 +102,314 @@
                   "name" : "Country_Name",
                   "dataType" : "string",
                   "nullable" : true
-                }
+                }, {
+                  "name" : "Phone",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone_Cells",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Gmail",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Subscriptions_Date",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Websites",
+                  "dataType" : "string",
+                  "nullable" : true
+                } ],
+                "count" : 0
+              },
+              "ruleType" : "COLUMN_NAMES",
+              "operator" : "=",
+              "tblName" : "customersdata330csv",
+              "creationTime" : 1759201503456,
+              "level" : "Warning",
+              "expectedPercent" : 100,
+              "description" : ""
+            }, {
+              "unitTestCaseId" : 1586062764672,
+              "tblMetadataInfo" : {
+                "schema" : [ {
+                  "name" : "Age",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Customers_Id_Num",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "First",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Last",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Company_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Town",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Country_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone_Cells",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Gmail",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Subscriptions_Date",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Websites",
+                  "dataType" : "string",
+                  "nullable" : true
+                } ],
+                "count" : 0
+              },
+              "ruleType" : "DATA_TYPES",
+              "operator" : "=",
+              "tblName" : "customersdata330csv",
+              "creationTime" : 1759201503456,
+              "level" : "Warning",
+              "expectedPercent" : 100,
+              "description" : ""
+            }, {
+              "unitTestCaseId" : 1586062764672,
+              "tblMetadataInfo" : {
+                "schema" : [ {
+                  "name" : "Age",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Customers_Id_Num",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "First",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Last",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Company_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Town",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Country_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone_Cells",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Gmail",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Subscriptions_Date",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Websites",
+                  "dataType" : "string",
+                  "nullable" : true
+                } ],
+                "count" : 0
+              },
+              "ruleType" : "ADD_NEW_COLUMN",
+              "operator" : "=",
+              "tblName" : "customersdata330csv",
+              "creationTime" : 1759201503456,
+              "level" : "Warning",
+              "expectedPercent" : 100,
+              "description" : ""
+            }, {
+              "unitTestCaseId" : 1586062764672,
+              "tblMetadataInfo" : {
+                "schema" : [ {
+                  "name" : "Age",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Customers_Id_Num",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "First",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Last",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Company_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Town",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Country_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone_Cells",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Gmail",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Subscriptions_Date",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Websites",
+                  "dataType" : "string",
+                  "nullable" : true
+                } ],
+                "count" : 0
+              },
+              "ruleType" : "DROP_COLUMN",
+              "operator" : "=",
+              "tblName" : "customersdata330csv",
+              "creationTime" : 1759201503456,
+              "level" : "Warning",
+              "expectedPercent" : 100,
+              "description" : ""
+            }, {
+              "unitTestCaseId" : 1586062764672,
+              "tblMetadataInfo" : {
+                "schema" : [ {
+                  "name" : "Age",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Customers_Id_Num",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "First",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Last",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Company_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Town",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Country_Name",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Phone_Cells",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Gmail",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Subscriptions_Date",
+                  "dataType" : "string",
+                  "nullable" : true
+                }, {
+                  "name" : "Websites",
+                  "dataType" : "string",
+                  "nullable" : true
+                } ],
+                "count" : 0
+              },
+              "ruleType" : "ORDER_OF_COLUMNS",
+              "operator" : "=",
+              "tblName" : "customersdata330csv",
+              "creationTime" : 1759201503456,
+              "level" : "Warning",
+              "expectedPercent" : 100,
+              "description" : ""
+            } ],
+            "dqSplitType" : "DATA_QUALITY",
+            "executeRulesOn" : "IN_MEMORY"
+          }
+        }
+      },
+      "description" : "data quality component",
+      "position" : {
+        "x" : 289,
+        "y" : 165
+      },
+      "id" : "dataQuality",
+      "keyValueProps" : {
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "root" : "dataQuality",
+  "hadoop" : false,
+  "parameters" : [ {
+    "paramName" : "file_path_330",
+    "paramValue" : "/my_data/user_files/customersdata_330.csv",
+    "param_type" : "string",
+    "code" : null,
+    "codeConnectionSource" : null,
+    "codeLanguage" : null,
+    "codeSchema" : null
+  } ],
+  "email" : [ ],
+  "flowType" : "DATA QUALITY",
+  "syncInfo" : {
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:22:23.125903960Z",
+    "syncType" : "PROJECT",
+    "user" : "system"
+  }
+}
