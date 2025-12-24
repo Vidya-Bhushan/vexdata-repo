@@ -287,9 +287,9 @@
   "session.id" : "07d7a3ab-adcd-4c4c-85be-827f2a7e7e5b",
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:02.841443716Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:26:22.727389393Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }

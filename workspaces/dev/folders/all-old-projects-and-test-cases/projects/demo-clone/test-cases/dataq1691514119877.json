@@ -130,9 +130,9 @@
   "session.id" : "b2d8657a-ca51-4737-89b7-1a223b1095c6",
   "flowType" : "CELL BY CELL COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:02.846810164Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:26:22.728743879Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }

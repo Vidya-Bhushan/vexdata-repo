@@ -700,9 +700,9 @@
   "email" : [ ],
   "flowType" : "SCHEMA MONITORING",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:02.593105407Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:26:22.663373238Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }

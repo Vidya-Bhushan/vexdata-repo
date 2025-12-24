@@ -102,9 +102,9 @@
   "session.id" : "1c9ee07d-3936-447f-9c85-1394c578820a",
   "flowType" : "DATA QUALITY",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:02.906127452Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:26:22.744410888Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
