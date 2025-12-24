@@ -1,0 +1,18 @@
+{
+  "id" : 721,
+  "name" : "f1",
+  "description" : " ",
+  "fileType" : "PROJECT",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "RECYCLEBIN",
+  "enabled" : false,
+  "endDate" : [ 2025, 11, 14, 6, 10, 5 ],
+  "metadata" : {
+    "createdBy" : "dataops",
+    "updatedBy" : "system_pull",
+    "createdDate" : "2025-05-23T10:22:24Z",
+    "updatedDate" : "2025-12-18T10:08:28Z"
+  }
+}
