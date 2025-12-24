@@ -97,9 +97,9 @@
   "email" : [ ],
   "flowType" : "DATA QUALITY",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:01.907335260Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:25:49.877612911Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
