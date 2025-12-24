@@ -115,9 +115,9 @@
   "email" : [ ],
   "flowType" : "COUNTS COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:15.716732065Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:27:16.167917770Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
