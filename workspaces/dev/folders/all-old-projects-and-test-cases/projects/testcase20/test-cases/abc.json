@@ -119,9 +119,9 @@
   "email" : [ ],
   "flowType" : "SCHEMA COMPARE",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:00.462599344Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:25:10.911755816Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
