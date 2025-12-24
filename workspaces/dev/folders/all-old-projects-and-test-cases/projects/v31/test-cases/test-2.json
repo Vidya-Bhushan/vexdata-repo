@@ -330,9 +330,9 @@
   "email" : [ ],
   "flowType" : "DATA QUALITY",
   "syncInfo" : {
-    "syncId" : "FOLDER",
-    "timestamp" : "2025-12-24T01:24:01.954774337Z",
-    "syncType" : "FOLDER",
+    "syncId" : "PROJECT",
+    "timestamp" : "2025-12-24T01:25:56.499257379Z",
+    "syncType" : "PROJECT",
     "user" : "system"
   }
 }
