@@ -1,0 +1,13 @@
+{
+  "projectId" : 889,
+  "parameters" : [ {
+    "key" : "sf_schema",
+    "value" : "PUBLIC",
+    "type" : null,
+    "projectId" : 889
+  } ],
+  "metadata" : {
+    "lastUpdated" : "2025-12-26T04:45:38.821586006Z",
+    "updatedBy" : "system-sync"
+  }
+}
