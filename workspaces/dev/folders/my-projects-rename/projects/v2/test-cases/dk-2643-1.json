@@ -1,0 +1,810 @@
+{
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"reports\":[\"Cell By Cell\"],\"tablesList\":{\"source\":[{\"id\":\"25b93996-1dd8-4313-8e7b-4382a74a0d8a\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"collegedetails_zero_records\",\"schema\":[{\"columnName\":\"affiliated_universities_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"branches_count_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"college_code_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"contact_no_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"d843e399-8701-4dd8-b8f4-48ea8016b88b\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"person_details\",\"schema\":[{\"columnName\":\"Person_Age\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Email\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ID\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"Person_Name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Salary\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"Person_SalaryCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ZipCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":12,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"f5a3ea2a-767d-48a1-a617-970b11430171\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"Jan_2020_ontime\",\"schema\":[{\"columnName\":\"ARR_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"ARR_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"CANCELLED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DAY_OF_MONTH\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DAY_OF_WEEK\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEP_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DEP_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEP_TIME_BLK\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DISTANCE\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DIVERTED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"OP_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_AIRLINE_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_FL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_UNIQUE_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"TAIL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":49518,\"tableSize\":10.52,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"696d61db-840f-4e3b-93a5-90725dcaa38d\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"college_zero_records\",\"schema\":[{\"columnName\":\"address_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_Name_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"contact_No_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"date_of_registration_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_address_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"2837fe85-aa83-41d0-95fc-528e1ab62ade\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"students_info\",\"schema\":[{\"columnName\":\"Social_category\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"aadhar_Number\",\"columnType\":\"binary\",\"actualColumnType\":\"blob\",\"nullable\":false},{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"student_ID\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"student_ID\",\"student_ID\"],\"foreignKeyInfo\":null,\"count\":625,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":\"student_ID\",\"indexInfo\":null},{\"id\":\"47a0d2b7-e87f-42df-adfe-4be2024b9f9a\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"personal_Info\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"blood_Group\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"city\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"country\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_Address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"height\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"occupation\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"person_Id\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"primary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"salary\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"secondary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"state\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"person_Id\",\"person_Id\"],\"foreignKeyInfo\":null,\"count\":25,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"person_Id\",\"indexInfo\":null},{\"id\":\"758f4bb7-fe1b-4c05-9794-74792262ae14\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"person_detail\",\"schema\":[{\"columnName\":\"Person_Age\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Email\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ID\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"Person_Name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Salary\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"Person_SalaryCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ZipCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":12,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"ac2a829a-4e56-46ca-ae6e-1165a1407dca\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"assment_report_hist\",\"schema\":[{\"columnName\":\"student_ID\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"student_name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":20,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"1b7daf58-6f5b-4e17-b5f9-92d1550ced05\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"tolerance\",\"schema\":[{\"columnName\":\"gradePoints_int\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"obtained_marks_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"percentage_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"student_id_bigint_pk\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"subject1_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"subject2_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"total_marks_int\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"student_id_bigint_pk\"],\"foreignKeyInfo\":null,\"count\":20,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"student_id_bigint_pk\",\"indexInfo\":null},{\"id\":\"4e16bf68-0e2c-4702-bf0b-029a3869fe9d\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"joining_details\",\"schema\":[{\"columnName\":\"enrollment_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"joining_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"joining_details_bigint_pk\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"startdate_timestamp\",\"columnType\":\"timestamp\",\"actualColumnType\":\"timestamp\",\"nullable\":false},{\"columnName\":\"student_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"joining_details_bigint_pk\"],\"foreignKeyInfo\":null,\"count\":10,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"joining_details_bigint_pk\",\"indexInfo\":null},{\"id\":\"cc5f81e4-325b-4ba2-9757-2c602e233d49\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"salary_range\",\"schema\":[{\"columnName\":\"Salary_Code\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Salary_Max\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Salary_Min\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":6,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}],\"target\":[{\"id\":\"cfe12e0b-9aa5-4889-8772-6ef35d944a73\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"collegedetails_zero_records\",\"schema\":[{\"columnName\":\"affiliated_universities_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"branches_count_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"college_code_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"contact_no_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"9f66d300-35dd-4622-b2de-509e4d5cde3d\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"person_details\",\"schema\":[{\"columnName\":\"Person_Age\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Email\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ID\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"Person_Name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Salary\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"Person_SalaryCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ZipCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":12,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"a10ce892-ffa7-4435-9183-b4e322b20650\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"Jan_2020_ontime\",\"schema\":[{\"columnName\":\"ARR_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"ARR_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"CANCELLED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DAY_OF_MONTH\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DAY_OF_WEEK\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEP_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DEP_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEP_TIME_BLK\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DISTANCE\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DIVERTED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"OP_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_AIRLINE_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_FL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_UNIQUE_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"TAIL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":49518,\"tableSize\":10.52,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"c4e504d6-fc46-411f-9a59-2735a3eaddec\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"college_zero_records\",\"schema\":[{\"columnName\":\"address_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_Name_string\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"college_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"contact_No_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"date_of_registration_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_address_varchar\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":0,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"e4d91fb6-ce2a-4ae7-a01f-6355c7ec1645\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"students_info\",\"schema\":[{\"columnName\":\"Social_category\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"aadhar_Number\",\"columnType\":\"binary\",\"actualColumnType\":\"blob\",\"nullable\":false},{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"student_ID\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"student_ID\",\"student_ID\"],\"foreignKeyInfo\":null,\"count\":625,\"tableSize\":0.06,\"noOfPartition\":0,\"partitionColumn\":\"student_ID\",\"indexInfo\":null},{\"id\":\"6b2a9d8e-c2e8-4d19-a022-914b30fe314e\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"personal_Info\",\"schema\":[{\"columnName\":\"address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"blood_Group\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"city\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"country\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"dob\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"email_Address\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"first_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"gender\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"height\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"last_Name\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"occupation\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"person_Id\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"postcode\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"primary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"salary\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"secondary_Contact\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"state\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"person_Id\",\"person_Id\"],\"foreignKeyInfo\":null,\"count\":25,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"person_Id\",\"indexInfo\":null},{\"id\":\"fbe1864b-7862-45b3-a02b-ec703abc2703\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"person_detail\",\"schema\":[{\"columnName\":\"Person_Age\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Email\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ID\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"Person_Name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_Salary\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"Person_SalaryCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Person_ZipCode\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":12,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"cf56cb78-1d40-4b07-b930-dacc9ad4f219\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"assment_report_hist\",\"schema\":[{\"columnName\":\"student_ID\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"student_name\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":20,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null},{\"id\":\"08033e75-e783-40cd-93e7-f29ce5af83e9\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"tolerance\",\"schema\":[{\"columnName\":\"gradePoints_int\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false},{\"columnName\":\"obtained_marks_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"percentage_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"student_id_bigint_pk\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"subject1_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"subject2_double\",\"columnType\":\"double\",\"actualColumnType\":\"double\",\"nullable\":false},{\"columnName\":\"total_marks_int\",\"columnType\":\"int\",\"actualColumnType\":\"int\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"student_id_bigint_pk\"],\"foreignKeyInfo\":null,\"count\":20,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"student_id_bigint_pk\",\"indexInfo\":null},{\"id\":\"b8748c57-90c7-4d35-9f51-265807fc901b\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"joining_details\",\"schema\":[{\"columnName\":\"enrollment_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"joining_date\",\"columnType\":\"date\",\"actualColumnType\":\"date\",\"nullable\":false},{\"columnName\":\"joining_details_bigint_pk\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"startdate_timestamp\",\"columnType\":\"timestamp\",\"actualColumnType\":\"timestamp\",\"nullable\":false},{\"columnName\":\"student_id_bigint\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":[\"joining_details_bigint_pk\"],\"foreignKeyInfo\":null,\"count\":10,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":\"joining_details_bigint_pk\",\"indexInfo\":null},{\"id\":\"f2022b8c-5ff6-4157-83ac-e209eb623084\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"salary_range\",\"schema\":[{\"columnName\":\"Salary_Code\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Salary_Max\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false},{\"columnName\":\"Salary_Min\",\"columnType\":\"string\",\"actualColumnType\":\"text\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":6,\"tableSize\":0.02,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":5,\"test_case_name\":\"DK-2643-1\",\"badRecordsCount\":15,\"comparisonType\":\"default\",\"comparisonTypeSelectedByUser\":true,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"mailingList\":\"\",\"template\":\"default\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"ecb2335e-87fc-43ec-87ab-9681be8a9a88\":{\"source\":\"25b93996-1dd8-4313-8e7b-4382a74a0d8a\",\"target\":\"cfe12e0b-9aa5-4889-8772-6ef35d944a73\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"bfa9c4f0-06f7-4ece-9f3e-bc903b4b8d01\",\"sourceColumnName\":\"contact_no_string\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"contact_no_string\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"348310e5-7553-40ad-ab11-f2ed269531f2\",\"sourceColumnName\":\"college_id_bigint\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"college_id_bigint\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"b591c6f6-492c-4c0a-8a19-004cecbff5ed\",\"sourceColumnName\":\"college_code_varchar\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"college_code_varchar\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"4299f7e9-02af-41ee-adeb-bcbf6bf259fb\",\"sourceColumnName\":\"branches_count_bigint\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"branches_count_bigint\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"7c834ceb-e6dc-4e31-b23e-b3ec948f3277\",\"sourceColumnName\":\"affiliated_universities_string\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"affiliated_universities_string\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"922f9867-a4d1-4b44-afed-216578550db4\":{\"source\":\"d843e399-8701-4dd8-b8f4-48ea8016b88b\",\"target\":\"9f66d300-35dd-4622-b2de-509e4d5cde3d\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"d593def9-a481-40ca-bf5d-03faf6658b56\",\"sourceColumnName\":\"Person_ZipCode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_ZipCode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2e971b60-d3b2-45e3-89d6-12b0f190eb9e\",\"sourceColumnName\":\"Person_SalaryCode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_SalaryCode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"1b416c1e-1513-43d2-a5e1-3ee19e4254f3\",\"sourceColumnName\":\"Person_Salary\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Salary\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"047e396e-d409-45f4-92b4-8e426258787f\",\"sourceColumnName\":\"Person_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"5457e2f6-319b-4781-9bf7-70d8bca81047\",\"sourceColumnName\":\"Person_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"Person_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"b610db64-7048-491a-b19d-7aa018900548\",\"sourceColumnName\":\"Person_Email\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Email\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8fcfa4df-6aed-4683-bb3a-a57ffffcfb73\",\"sourceColumnName\":\"Person_Age\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Age\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"a892e6d5-16b7-4703-ade6-3f81bd0d2620\":{\"source\":\"f5a3ea2a-767d-48a1-a617-970b11430171\",\"target\":\"a10ce892-ffa7-4435-9183-b4e322b20650\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"e8170ac9-f5d4-4803-a84e-8ece66f1f7de\",\"sourceColumnName\":\"TAIL_NUM\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"TAIL_NUM\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"95f83ba0-f322-4cc3-9114-4c82e5d61646\",\"sourceColumnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"3e63295e-2394-4c99-98d3-df846519f637\",\"sourceColumnName\":\"ORIGIN_AIRPORT_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN_AIRPORT_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"9c61999b-eddd-46bd-a2db-2cc280fc3cb3\",\"sourceColumnName\":\"ORIGIN\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"bd71c483-1419-4ba4-ace6-82d6d259baeb\",\"sourceColumnName\":\"OP_UNIQUE_CARRIER\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_UNIQUE_CARRIER\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"06d15a98-83b7-435d-b6d7-ef05a3c12110\",\"sourceColumnName\":\"OP_CARRIER_FL_NUM\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER_FL_NUM\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"d26a95f5-9d96-4a6c-b2f4-15875c8a132d\",\"sourceColumnName\":\"OP_CARRIER_AIRLINE_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER_AIRLINE_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"776ebf14-7883-4593-9c5e-8c28b9c564af\",\"sourceColumnName\":\"OP_CARRIER\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"08d8ab4f-c125-40aa-988e-9c7a097cf629\",\"sourceColumnName\":\"DIVERTED\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DIVERTED\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"490fe037-cb87-437f-ad3a-6e6aa334c8db\",\"sourceColumnName\":\"DISTANCE\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DISTANCE\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8330c2cf-7f10-4151-840b-2585b8e4e869\",\"sourceColumnName\":\"DEST_AIRPORT_SEQ_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DEST_AIRPORT_SEQ_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"efc74965-00e0-42b0-b839-91ff121ff7e4\",\"sourceColumnName\":\"DEST_AIRPORT_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DEST_AIRPORT_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"e4f9dd39-427e-4990-b6be-a42ebd68f42f\",\"sourceColumnName\":\"DEST\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEST\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"b4238888-b57c-413a-850e-6d8615879d5b\",\"sourceColumnName\":\"DEP_TIME_BLK\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_TIME_BLK\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"1b77946e-5aa3-4544-aac4-8dea1008b31b\",\"sourceColumnName\":\"DEP_TIME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_TIME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"ba3cd54c-2cf8-4e82-aba5-f73979a723e3\",\"sourceColumnName\":\"DEP_DEL15\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_DEL15\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"c8865860-2e33-4628-bc3e-17a8b2635d03\",\"sourceColumnName\":\"DAY_OF_WEEK\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DAY_OF_WEEK\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2ad80620-4e7f-4565-97ed-480b07dd35c5\",\"sourceColumnName\":\"DAY_OF_MONTH\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DAY_OF_MONTH\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"5303bbd3-caf0-4430-aa28-b469739bc7ff\",\"sourceColumnName\":\"CANCELLED\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"CANCELLED\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"25044dc4-5926-47cf-bcbb-af3ad79f9d21\",\"sourceColumnName\":\"ARR_TIME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"ARR_TIME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"b863615d-2141-4bf7-b389-a570ce390271\",\"sourceColumnName\":\"ARR_DEL15\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"ARR_DEL15\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"267fe044-ac36-440e-8969-62fec78f4e4a\":{\"source\":\"696d61db-840f-4e3b-93a5-90725dcaa38d\",\"target\":\"c4e504d6-fc46-411f-9a59-2735a3eaddec\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"1bad7d01-b4aa-42d0-ad00-838cb5cee640\",\"sourceColumnName\":\"email_address_varchar\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"email_address_varchar\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"3478c809-72eb-4fda-a7f5-889f34c73465\",\"sourceColumnName\":\"date_of_registration_date\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"date_of_registration_date\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"9827f1f6-1516-4b11-98fe-7fe2cd218215\",\"sourceColumnName\":\"contact_No_bigint\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"contact_No_bigint\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8027d1e2-1273-4859-9311-e982c9901107\",\"sourceColumnName\":\"college_id_bigint\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"college_id_bigint\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"c7f9e478-fe83-4e30-8050-e357dbf5056d\",\"sourceColumnName\":\"college_Name_string\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"college_Name_string\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2e9cddb5-0296-4557-be29-8aaf74636a86\",\"sourceColumnName\":\"address_varchar\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"address_varchar\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"e3a1a7a3-51b4-459e-8321-37d23acc5ea3\":{\"source\":\"2837fe85-aa83-41d0-95fc-528e1ab62ade\",\"target\":\"e4d91fb6-ce2a-4ae7-a01f-6355c7ec1645\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"ccd6c2fd-6b0e-4af7-a831-35df8fa149af\",\"sourceColumnName\":\"student_ID\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"student_ID\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"26c5ceb0-5a4c-4cd7-a983-d6aa066c6425\",\"sourceColumnName\":\"postcode\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"postcode\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"235e73f5-f1ba-4ed2-9f63-e026b62e0e64\",\"sourceColumnName\":\"address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"03544a26-3c18-4631-8e52-52ec8dae856e\",\"sourceColumnName\":\"Social_category\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Social_category\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"8667fee8-70b4-47e1-8e66-934782fca8d5\":{\"source\":\"47a0d2b7-e87f-42df-adfe-4be2024b9f9a\",\"target\":\"6b2a9d8e-c2e8-4d19-a022-914b30fe314e\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"5fb0db09-27ec-4423-99a0-0b587f5a7600\",\"sourceColumnName\":\"state\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"state\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"40bfc670-dd34-4629-8a21-10482e1eeb68\",\"sourceColumnName\":\"secondary_Contact\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"secondary_Contact\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"58a696f8-0cf0-473f-ac5e-f28ab905473e\",\"sourceColumnName\":\"salary\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"salary\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"c16e86a8-f293-4eb1-9f57-298252bf2f5c\",\"sourceColumnName\":\"primary_Contact\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"primary_Contact\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"22005006-4a91-4224-ae77-2ba107368300\",\"sourceColumnName\":\"postcode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"postcode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"649aaee4-a344-4d07-9444-bb656bab7a81\",\"sourceColumnName\":\"person_Id\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"person_Id\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"caa6f2e1-c83e-4793-811d-260e80caedc9\",\"sourceColumnName\":\"occupation\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"occupation\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"4928350d-b2ff-4f19-939d-786a589d01e8\",\"sourceColumnName\":\"last_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"last_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"ab4214c4-c040-497b-baf5-8f17a34a51cb\",\"sourceColumnName\":\"height\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"height\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"70e6aff2-aaff-48a2-8a8a-569f895bb0c4\",\"sourceColumnName\":\"gender\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"gender\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2b746ec6-c1d9-443b-9f79-46f704d0bdc9\",\"sourceColumnName\":\"first_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"first_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"4ce8249f-96dd-49c4-b5a3-97c5a893414f\",\"sourceColumnName\":\"email_Address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"email_Address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"03b25369-5c5c-42d4-8b39-9035b8b8ab17\",\"sourceColumnName\":\"dob\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"dob\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"295abb76-fea7-41b9-aa73-5054c664fc22\",\"sourceColumnName\":\"country\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"country\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"ec31321e-0966-4510-8475-f235c7c7b812\",\"sourceColumnName\":\"city\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"city\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"2f6f29bf-d87b-4052-ada9-9f5fbda034b7\",\"sourceColumnName\":\"blood_Group\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"blood_Group\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"6d6f1573-df64-42c1-afea-9bdb1ebd1981\",\"sourceColumnName\":\"address\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"address\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"e8f5901c-2ccd-4a3d-971a-84162e85f8ff\":{\"source\":\"758f4bb7-fe1b-4c05-9794-74792262ae14\",\"target\":\"fbe1864b-7862-45b3-a02b-ec703abc2703\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"682f5fcd-5ef7-47b4-93b9-0c6323e17cb6\",\"sourceColumnName\":\"Person_ZipCode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_ZipCode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"07c2c88d-aa0d-4e70-b097-d95209079a51\",\"sourceColumnName\":\"Person_SalaryCode\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_SalaryCode\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"525be47b-1167-4cfa-b388-a8eeb30d2677\",\"sourceColumnName\":\"Person_Salary\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Salary\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"9262de6f-c0e5-43fa-9939-252edc3d6185\",\"sourceColumnName\":\"Person_Name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"cc6ab485-1064-4144-8d90-b2a4a6c14007\",\"sourceColumnName\":\"Person_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"Person_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"188eaf4e-dc6c-4af9-932e-bfff941863f3\",\"sourceColumnName\":\"Person_Email\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Email\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"f9a5d609-4f65-4ce7-ac53-bb0d6c202429\",\"sourceColumnName\":\"Person_Age\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Person_Age\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"5dc3f31d-8ca6-4a2b-8181-2dad49d11072\":{\"source\":\"ac2a829a-4e56-46ca-ae6e-1165a1407dca\",\"target\":\"cf56cb78-1d40-4b07-b930-dacc9ad4f219\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"cc9e4860-5c34-4c92-84bf-96594d474780\",\"sourceColumnName\":\"student_name\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"student_name\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"be3c4721-57e7-43fc-b60a-933c44334b23\",\"sourceColumnName\":\"student_ID\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"student_ID\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":true}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"1d2acf2d-7963-4e6d-bf02-61def3260df9\":{\"source\":\"1b7daf58-6f5b-4e17-b5f9-92d1550ced05\",\"target\":\"08033e75-e783-40cd-93e7-f29ce5af83e9\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"c3216a17-73e1-4191-bc30-e1e284eafcf0\",\"sourceColumnName\":\"total_marks_int\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"total_marks_int\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"9765e0ad-24b9-4ce4-96b4-a6cfa86e65c2\",\"sourceColumnName\":\"subject2_double\",\"sourceColumnType\":\"double\",\"sourceActualColumnType\":\"double\",\"sourceNullable\":false,\"targetColumnName\":\"subject2_double\",\"targetColumnType\":\"double\",\"targetActualColumnType\":\"double\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"f1ecbd8b-cfb8-4366-9016-7476d847b46d\",\"sourceColumnName\":\"subject1_double\",\"sourceColumnType\":\"double\",\"sourceActualColumnType\":\"double\",\"sourceNullable\":false,\"targetColumnName\":\"subject1_double\",\"targetColumnType\":\"double\",\"targetActualColumnType\":\"double\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"60572b2a-fda2-4e64-90c9-23e03f0c8845\",\"sourceColumnName\":\"student_id_bigint_pk\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"student_id_bigint_pk\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"9bcb95c1-1895-47d4-9b5c-6533fc9d4ee5\",\"sourceColumnName\":\"percentage_double\",\"sourceColumnType\":\"double\",\"sourceActualColumnType\":\"double\",\"sourceNullable\":false,\"targetColumnName\":\"percentage_double\",\"targetColumnType\":\"double\",\"targetActualColumnType\":\"double\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"55c31e5a-3205-4e89-92c3-278fb2b367a7\",\"sourceColumnName\":\"obtained_marks_double\",\"sourceColumnType\":\"double\",\"sourceActualColumnType\":\"double\",\"sourceNullable\":false,\"targetColumnName\":\"obtained_marks_double\",\"targetColumnType\":\"double\",\"targetActualColumnType\":\"double\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"ebd76448-1cc2-4a79-8659-e85ddb662a28\",\"sourceColumnName\":\"gradePoints_int\",\"sourceColumnType\":\"int\",\"sourceActualColumnType\":\"int\",\"sourceNullable\":false,\"targetColumnName\":\"gradePoints_int\",\"targetColumnType\":\"int\",\"targetActualColumnType\":\"int\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"9e59e00f-21f6-4b8e-97a5-e33c7f1b722c\":{\"source\":\"4e16bf68-0e2c-4702-bf0b-029a3869fe9d\",\"target\":\"b8748c57-90c7-4d35-9f51-265807fc901b\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"2de4c0b1-e9cf-4755-9bc4-159169f3d34f\",\"sourceColumnName\":\"student_id_bigint\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"student_id_bigint\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"47efbedb-96cb-47f6-b7bd-f176a2adab81\",\"sourceColumnName\":\"startdate_timestamp\",\"sourceColumnType\":\"timestamp\",\"sourceActualColumnType\":\"timestamp\",\"sourceNullable\":false,\"targetColumnName\":\"startdate_timestamp\",\"targetColumnType\":\"timestamp\",\"targetActualColumnType\":\"timestamp\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"7b156503-11d5-4f89-b171-d938f4790cbf\",\"sourceColumnName\":\"joining_details_bigint_pk\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"joining_details_bigint_pk\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"e24a8365-e707-4a12-81f5-9d1b4d986388\",\"sourceColumnName\":\"joining_date\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"joining_date\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8f792339-287c-42ae-9419-761c1e974339\",\"sourceColumnName\":\"enrollment_date\",\"sourceColumnType\":\"date\",\"sourceActualColumnType\":\"date\",\"sourceNullable\":false,\"targetColumnName\":\"enrollment_date\",\"targetColumnType\":\"date\",\"targetActualColumnType\":\"date\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"},\"1d556e89-1467-4c23-aa38-91a97e6a86ef\":{\"source\":\"cc5f81e4-325b-4ba2-9757-2c602e233d49\",\"target\":\"f2022b8c-5ff6-4157-83ac-e209eb623084\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"d4a85366-50f7-43f2-8510-f3e7d972710d\",\"sourceColumnName\":\"Salary_Min\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Salary_Min\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"82f6bb64-e9f7-4653-a9a1-f6d9242e9d77\",\"sourceColumnName\":\"Salary_Max\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Salary_Max\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"53ca3b7a-3178-48c3-98d5-ec34ae58b52d\",\"sourceColumnName\":\"Salary_Code\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"text\",\"sourceNullable\":false,\"targetColumnName\":\"Salary_Code\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"text\",\"targetNullable\":false,\"isPrimaryKey\":true}],\"sourceColumn\":\"\",\"targetColumn\":\"\"}}},\"dataQualityState\":{}}",
+  "executorMemory" : "5g",
+  "executorCores" : 2,
+  "executeOn" : "LOCAL",
+  "flowName" : "dk 2643 1",
+  "APP_VERSION" : "6_94",
+  "flowDesc" : "DK-2643-1",
+  "LicensedName" : "6_94",
+  "numExecutors" : 2,
+  "livy" : false,
+  "groupName" : "dev",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "collegedetails_zero_records" : null,
+          "person_details" : null,
+          "Jan_2020_ontime" : null,
+          "college_zero_records" : null,
+          "students_info" : null,
+          "personal_Info" : null,
+          "person_detail" : null,
+          "assment_report_hist" : null,
+          "tolerance" : null,
+          "joining_details" : null,
+          "salary_range" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "collegedetails_zero_records",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "person_details",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 12,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "Jan_2020_ontime",
+          "tblSize" : "10.52",
+          "tblRecordCount" : 49518,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "college_zero_records",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "students_info",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 625,
+          "primaryKeys" : [ "student_ID", "student_ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "personal_Info",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 25,
+          "primaryKeys" : [ "person_Id", "person_Id" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "person_detail",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 12,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "assment_report_hist",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 20,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "tolerance",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 20,
+          "primaryKeys" : [ "student_id_bigint_pk" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "joining_details",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 10,
+          "primaryKeys" : [ "joining_details_bigint_pk" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "salary_range",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 6,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "collegedetails_zero_records" : null,
+          "person_details" : null,
+          "Jan_2020_ontime" : null,
+          "college_zero_records" : null,
+          "students_info" : null,
+          "personal_Info" : null,
+          "person_detail" : null,
+          "assment_report_hist" : null,
+          "tolerance" : null,
+          "joining_details" : null,
+          "salary_range" : null
+        },
+        "tableProperties" : [ {
+          "tblName" : "collegedetails_zero_records",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "person_details",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 12,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "Jan_2020_ontime",
+          "tblSize" : "10.52",
+          "tblRecordCount" : 49518,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "college_zero_records",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 0,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "students_info",
+          "tblSize" : "0.06",
+          "tblRecordCount" : 625,
+          "primaryKeys" : [ "student_ID", "student_ID" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "personal_Info",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 25,
+          "primaryKeys" : [ "person_Id", "person_Id" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "person_detail",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 12,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "assment_report_hist",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 20,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "tolerance",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 20,
+          "primaryKeys" : [ "student_id_bigint_pk" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "joining_details",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 10,
+          "primaryKeys" : [ "joining_details_bigint_pk" ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        }, {
+          "tblName" : "salary_range",
+          "tblSize" : "0.02",
+          "tblRecordCount" : 6,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "CELL_BY_CELL_COMPARE" ],
+      "filesCompareList" : [ {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "collegedetails_zero_records" : "collegedetails_zero_records"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "contact_no_string" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "contact_no_string",
+          "destColumn" : "contact_no_string"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "contact_no_string",
+          "destColumn" : "contact_no_string"
+        }, {
+          "srcColumn" : "college_id_bigint",
+          "destColumn" : "college_id_bigint"
+        }, {
+          "srcColumn" : "college_code_varchar",
+          "destColumn" : "college_code_varchar"
+        }, {
+          "srcColumn" : "branches_count_bigint",
+          "destColumn" : "branches_count_bigint"
+        }, {
+          "srcColumn" : "affiliated_universities_string",
+          "destColumn" : "affiliated_universities_string"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "person_details" : "person_details"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "Person_ID" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "Person_ID",
+          "destColumn" : "Person_ID"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "Person_ZipCode",
+          "destColumn" : "Person_ZipCode"
+        }, {
+          "srcColumn" : "Person_SalaryCode",
+          "destColumn" : "Person_SalaryCode"
+        }, {
+          "srcColumn" : "Person_Salary",
+          "destColumn" : "Person_Salary"
+        }, {
+          "srcColumn" : "Person_Name",
+          "destColumn" : "Person_Name"
+        }, {
+          "srcColumn" : "Person_ID",
+          "destColumn" : "Person_ID"
+        }, {
+          "srcColumn" : "Person_Email",
+          "destColumn" : "Person_Email"
+        }, {
+          "srcColumn" : "Person_Age",
+          "destColumn" : "Person_Age"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "Jan_2020_ontime" : "Jan_2020_ontime"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "OP_UNIQUE_CARRIER" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "OP_UNIQUE_CARRIER",
+          "destColumn" : "OP_UNIQUE_CARRIER"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "TAIL_NUM",
+          "destColumn" : "TAIL_NUM"
+        }, {
+          "srcColumn" : "ORIGIN_AIRPORT_SEQ_ID",
+          "destColumn" : "ORIGIN_AIRPORT_SEQ_ID"
+        }, {
+          "srcColumn" : "ORIGIN_AIRPORT_ID",
+          "destColumn" : "ORIGIN_AIRPORT_ID"
+        }, {
+          "srcColumn" : "ORIGIN",
+          "destColumn" : "ORIGIN"
+        }, {
+          "srcColumn" : "OP_UNIQUE_CARRIER",
+          "destColumn" : "OP_UNIQUE_CARRIER"
+        }, {
+          "srcColumn" : "OP_CARRIER_FL_NUM",
+          "destColumn" : "OP_CARRIER_FL_NUM"
+        }, {
+          "srcColumn" : "OP_CARRIER_AIRLINE_ID",
+          "destColumn" : "OP_CARRIER_AIRLINE_ID"
+        }, {
+          "srcColumn" : "OP_CARRIER",
+          "destColumn" : "OP_CARRIER"
+        }, {
+          "srcColumn" : "DIVERTED",
+          "destColumn" : "DIVERTED"
+        }, {
+          "srcColumn" : "DISTANCE",
+          "destColumn" : "DISTANCE"
+        }, {
+          "srcColumn" : "DEST_AIRPORT_SEQ_ID",
+          "destColumn" : "DEST_AIRPORT_SEQ_ID"
+        }, {
+          "srcColumn" : "DEST_AIRPORT_ID",
+          "destColumn" : "DEST_AIRPORT_ID"
+        }, {
+          "srcColumn" : "DEST",
+          "destColumn" : "DEST"
+        }, {
+          "srcColumn" : "DEP_TIME_BLK",
+          "destColumn" : "DEP_TIME_BLK"
+        }, {
+          "srcColumn" : "DEP_TIME",
+          "destColumn" : "DEP_TIME"
+        }, {
+          "srcColumn" : "DEP_DEL15",
+          "destColumn" : "DEP_DEL15"
+        }, {
+          "srcColumn" : "DAY_OF_WEEK",
+          "destColumn" : "DAY_OF_WEEK"
+        }, {
+          "srcColumn" : "DAY_OF_MONTH",
+          "destColumn" : "DAY_OF_MONTH"
+        }, {
+          "srcColumn" : "CANCELLED",
+          "destColumn" : "CANCELLED"
+        }, {
+          "srcColumn" : "ARR_TIME",
+          "destColumn" : "ARR_TIME"
+        }, {
+          "srcColumn" : "ARR_DEL15",
+          "destColumn" : "ARR_DEL15"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "college_zero_records" : "college_zero_records"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "college_id_bigint" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "college_id_bigint",
+          "destColumn" : "college_id_bigint"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "email_address_varchar",
+          "destColumn" : "email_address_varchar"
+        }, {
+          "srcColumn" : "date_of_registration_date",
+          "destColumn" : "date_of_registration_date"
+        }, {
+          "srcColumn" : "contact_No_bigint",
+          "destColumn" : "contact_No_bigint"
+        }, {
+          "srcColumn" : "college_id_bigint",
+          "destColumn" : "college_id_bigint"
+        }, {
+          "srcColumn" : "college_Name_string",
+          "destColumn" : "college_Name_string"
+        }, {
+          "srcColumn" : "address_varchar",
+          "destColumn" : "address_varchar"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "students_info" : "students_info"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "student_ID" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "student_ID",
+          "destColumn" : "student_ID"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "student_ID",
+          "destColumn" : "student_ID"
+        }, {
+          "srcColumn" : "postcode",
+          "destColumn" : "postcode"
+        }, {
+          "srcColumn" : "address",
+          "destColumn" : "address"
+        }, {
+          "srcColumn" : "Social_category",
+          "destColumn" : "Social_category"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "personal_Info" : "personal_Info"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "person_Id" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "person_Id",
+          "destColumn" : "person_Id"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "state",
+          "destColumn" : "state"
+        }, {
+          "srcColumn" : "secondary_Contact",
+          "destColumn" : "secondary_Contact"
+        }, {
+          "srcColumn" : "salary",
+          "destColumn" : "salary"
+        }, {
+          "srcColumn" : "primary_Contact",
+          "destColumn" : "primary_Contact"
+        }, {
+          "srcColumn" : "postcode",
+          "destColumn" : "postcode"
+        }, {
+          "srcColumn" : "person_Id",
+          "destColumn" : "person_Id"
+        }, {
+          "srcColumn" : "occupation",
+          "destColumn" : "occupation"
+        }, {
+          "srcColumn" : "last_Name",
+          "destColumn" : "last_Name"
+        }, {
+          "srcColumn" : "height",
+          "destColumn" : "height"
+        }, {
+          "srcColumn" : "gender",
+          "destColumn" : "gender"
+        }, {
+          "srcColumn" : "first_Name",
+          "destColumn" : "first_Name"
+        }, {
+          "srcColumn" : "email_Address",
+          "destColumn" : "email_Address"
+        }, {
+          "srcColumn" : "dob",
+          "destColumn" : "dob"
+        }, {
+          "srcColumn" : "country",
+          "destColumn" : "country"
+        }, {
+          "srcColumn" : "city",
+          "destColumn" : "city"
+        }, {
+          "srcColumn" : "blood_Group",
+          "destColumn" : "blood_Group"
+        }, {
+          "srcColumn" : "address",
+          "destColumn" : "address"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "person_detail" : "person_detail"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "Person_ID" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "Person_ID",
+          "destColumn" : "Person_ID"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "Person_ZipCode",
+          "destColumn" : "Person_ZipCode"
+        }, {
+          "srcColumn" : "Person_SalaryCode",
+          "destColumn" : "Person_SalaryCode"
+        }, {
+          "srcColumn" : "Person_Salary",
+          "destColumn" : "Person_Salary"
+        }, {
+          "srcColumn" : "Person_Name",
+          "destColumn" : "Person_Name"
+        }, {
+          "srcColumn" : "Person_ID",
+          "destColumn" : "Person_ID"
+        }, {
+          "srcColumn" : "Person_Email",
+          "destColumn" : "Person_Email"
+        }, {
+          "srcColumn" : "Person_Age",
+          "destColumn" : "Person_Age"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "assment_report_hist" : "assment_report_hist"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "student_ID" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "student_ID",
+          "destColumn" : "student_ID"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "student_name",
+          "destColumn" : "student_name"
+        }, {
+          "srcColumn" : "student_ID",
+          "destColumn" : "student_ID"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "tolerance" : "tolerance"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "student_id_bigint_pk" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "student_id_bigint_pk",
+          "destColumn" : "student_id_bigint_pk"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "total_marks_int",
+          "destColumn" : "total_marks_int"
+        }, {
+          "srcColumn" : "subject2_double",
+          "destColumn" : "subject2_double"
+        }, {
+          "srcColumn" : "subject1_double",
+          "destColumn" : "subject1_double"
+        }, {
+          "srcColumn" : "student_id_bigint_pk",
+          "destColumn" : "student_id_bigint_pk"
+        }, {
+          "srcColumn" : "percentage_double",
+          "destColumn" : "percentage_double"
+        }, {
+          "srcColumn" : "obtained_marks_double",
+          "destColumn" : "obtained_marks_double"
+        }, {
+          "srcColumn" : "gradePoints_int",
+          "destColumn" : "gradePoints_int"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "joining_details" : "joining_details"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "joining_details_bigint_pk" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "joining_details_bigint_pk",
+          "destColumn" : "joining_details_bigint_pk"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "student_id_bigint",
+          "destColumn" : "student_id_bigint"
+        }, {
+          "srcColumn" : "startdate_timestamp",
+          "destColumn" : "startdate_timestamp"
+        }, {
+          "srcColumn" : "joining_details_bigint_pk",
+          "destColumn" : "joining_details_bigint_pk"
+        }, {
+          "srcColumn" : "joining_date",
+          "destColumn" : "joining_date"
+        }, {
+          "srcColumn" : "enrollment_date",
+          "destColumn" : "enrollment_date"
+        } ]
+      }, {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "salary_range" : "salary_range"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "Salary_Code" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "Salary_Code",
+          "destColumn" : "Salary_Code"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "Salary_Min",
+          "destColumn" : "Salary_Min"
+        }, {
+          "srcColumn" : "Salary_Max",
+          "destColumn" : "Salary_Max"
+        }, {
+          "srcColumn" : "Salary_Code",
+          "destColumn" : "Salary_Code"
+        } ]
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "root" : "dataCompare",
+  "hadoop" : false,
+  "UI_VERSION" : "6_94",
+  "API_APP_BUILD" : "6_94",
+  "parameters" : [ ],
+  "email" : [ ],
+  "flowType" : "CELL BY CELL COMPARE",
+  "flowId" : 504,
+  "dmsProjectId" : 17,
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-30T17:26:25.186020Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
+  }
+}

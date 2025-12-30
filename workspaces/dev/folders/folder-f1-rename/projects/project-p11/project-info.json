@@ -1,0 +1,18 @@
+{
+  "id" : 88,
+  "name" : "project p11",
+  "description" : " ",
+  "fileType" : "project",
+  "projectLevel" : "/22/87",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "enabled" : true,
+  "endDate" : null,
+  "metadata" : {
+    "createdBy" : "dataops",
+    "updatedBy" : null,
+    "createdDate" : "2025-12-30T16:37:07Z",
+    "updatedDate" : null
+  }
+}

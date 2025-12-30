@@ -1,0 +1,198 @@
+{
+  "UIDataModel" : "{\"newUI\":true,\"test_case\":{\"reports\":[\"Cell By Cell\"],\"tablesList\":{\"source\":[{\"id\":\"09804623-c387-428a-9bad-fd57c94eecdd\",\"from\":\"source\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"Jan_2020_ontime\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"schema\":[{\"columnName\":\"ARR_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"ARR_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"CANCELLED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DAY_OF_MONTH\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DAY_OF_WEEK\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEP_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DEP_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEP_TIME_BLK\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DISTANCE\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DIVERTED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"OP_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_AIRLINE_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_FL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_UNIQUE_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"TAIL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":49518,\"tableSize\":10.52,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}],\"target\":[{\"id\":\"9dbcb356-d0cb-4c80-bf35-3d681f248964\",\"from\":\"target\",\"type\":\"Table\",\"connectionName\":\"sampledb_src\",\"schemaName\":\"sampledb_src\",\"tableName\":\"Jan_2020_ontime\",\"partitionProperties\":{\"numberOfPart\":0,\"column\":null},\"schema\":[{\"columnName\":\"ARR_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"ARR_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"CANCELLED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DAY_OF_MONTH\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DAY_OF_WEEK\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEP_DEL15\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DEP_TIME\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEP_TIME_BLK\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DEST_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"DISTANCE\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"DIVERTED\",\"columnType\":\"long\",\"actualColumnType\":\"decimal\",\"nullable\":false},{\"columnName\":\"OP_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_AIRLINE_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"OP_CARRIER_FL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"OP_UNIQUE_CARRIER\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"columnType\":\"long\",\"actualColumnType\":\"bigint\",\"nullable\":false},{\"columnName\":\"TAIL_NUM\",\"columnType\":\"string\",\"actualColumnType\":\"varchar\",\"nullable\":false}],\"sampleData\":null,\"sqlExecution\":null,\"primaryKey\":null,\"foreignKeyInfo\":null,\"count\":49518,\"tableSize\":10.52,\"noOfPartition\":0,\"partitionColumn\":null,\"indexInfo\":null}]}},\"configuration\":{\"cluster\":\"LOCAL\",\"java_process\":2,\"threads\":2,\"memory\":5,\"test_case_name\":\"DK-2784\",\"badRecordsCount\":15,\"comparisonType\":\"ENABLE_SOURCE_COMPARE\",\"comparisonTypeSelectedByUser\":true,\"countsCompareTolerance\":0,\"notification\":{\"email\":false,\"slack\":false,\"mailingList\":\"\",\"template\":\"default\",\"notifyOn\":\"ALWAYS\",\"edit\":false}},\"mapping\":{\"mappings\":{\"9b4d8708-6d1d-4752-a255-18a27f69aad1\":{\"source\":\"09804623-c387-428a-9bad-fd57c94eecdd\",\"target\":\"9dbcb356-d0cb-4c80-bf35-3d681f248964\",\"matchBoth\":\"a=b\",\"columnMapping\":[{\"id\":\"4a1f7722-82e5-42cc-a710-254e1ddec77f\",\"sourceColumnName\":\"TAIL_NUM\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"TAIL_NUM\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"42ff0ad9-03fe-488d-856f-d173a764aecb\",\"sourceColumnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN_AIRPORT_SEQ_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"3dd23e75-b822-4d86-ac77-5c9a6266089e\",\"sourceColumnName\":\"ORIGIN_AIRPORT_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN_AIRPORT_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":true},{\"id\":\"82948434-4644-44b4-ac57-f8f55998c963\",\"sourceColumnName\":\"ORIGIN\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"ORIGIN\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"665fb74f-c7c4-46bd-84de-b3ea4d48fa19\",\"sourceColumnName\":\"OP_UNIQUE_CARRIER\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_UNIQUE_CARRIER\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"06cdc71c-c7d0-430b-9b71-6803ed1120d1\",\"sourceColumnName\":\"OP_CARRIER_FL_NUM\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER_FL_NUM\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"018a4f77-9cdd-4de6-8863-daafb54e4f22\",\"sourceColumnName\":\"OP_CARRIER_AIRLINE_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER_AIRLINE_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"746601dd-ffd7-453c-a9e6-560df9dacf91\",\"sourceColumnName\":\"OP_CARRIER\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"OP_CARRIER\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"bb74665d-908d-440d-8fb7-9dab44771e77\",\"sourceColumnName\":\"DIVERTED\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DIVERTED\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"c4f70707-c773-40e3-9559-2c5a636273a1\",\"sourceColumnName\":\"DISTANCE\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DISTANCE\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"085c8cc5-655a-4cf8-87e1-a0b1eb2ab947\",\"sourceColumnName\":\"DEST_AIRPORT_SEQ_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DEST_AIRPORT_SEQ_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8153963f-6b7b-42f8-b77a-255c9f2d2b8e\",\"sourceColumnName\":\"DEST_AIRPORT_ID\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DEST_AIRPORT_ID\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"8d50b683-1101-4f9b-89b1-6bfc9bfecda0\",\"sourceColumnName\":\"DEST\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEST\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"49dd4787-77c2-475b-945a-b5e590c530c6\",\"sourceColumnName\":\"DEP_TIME_BLK\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_TIME_BLK\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"d460ad54-1313-4e40-9e52-79502999a63c\",\"sourceColumnName\":\"DEP_TIME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_TIME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"0f461ada-0c00-4acb-b468-b068f8263e5d\",\"sourceColumnName\":\"DEP_DEL15\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"DEP_DEL15\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"c89d212f-8716-4c75-ab51-434502e7ab1b\",\"sourceColumnName\":\"DAY_OF_WEEK\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DAY_OF_WEEK\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"6929c20d-5b16-4a3a-b2c7-8d7ca26fc898\",\"sourceColumnName\":\"DAY_OF_MONTH\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"bigint\",\"sourceNullable\":false,\"targetColumnName\":\"DAY_OF_MONTH\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"bigint\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"48383ab1-d229-428f-93a7-e431ba22529b\",\"sourceColumnName\":\"CANCELLED\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"CANCELLED\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"f291a247-0f1d-4402-a0cb-b0819e2f9352\",\"sourceColumnName\":\"ARR_TIME\",\"sourceColumnType\":\"string\",\"sourceActualColumnType\":\"varchar\",\"sourceNullable\":false,\"targetColumnName\":\"ARR_TIME\",\"targetColumnType\":\"string\",\"targetActualColumnType\":\"varchar\",\"targetNullable\":false,\"isPrimaryKey\":false},{\"id\":\"4feabc5b-543d-4f60-b04b-d68773b32532\",\"sourceColumnName\":\"ARR_DEL15\",\"sourceColumnType\":\"long\",\"sourceActualColumnType\":\"decimal\",\"sourceNullable\":false,\"targetColumnName\":\"ARR_DEL15\",\"targetColumnType\":\"long\",\"targetActualColumnType\":\"decimal\",\"targetNullable\":false,\"isPrimaryKey\":false}],\"sourceColumn\":\"\",\"targetColumn\":\"\"}}},\"dataQualityState\":{},\"dataStandarizations\":{\"columnStandarization\":{\"data\":{}},\"dataStandarization\":{\"trimAllColumns\":false,\"data\":{}},\"sqlTransformation\":{\"editData\":null,\"sql\":\"\",\"sqlName\":\"\",\"data\":{}}},\"outputData\":[]}",
+  "executorMemory" : "5g",
+  "executorCores" : 2,
+  "executeOn" : "LOCAL",
+  "flowName" : "dk 2784",
+  "APP_VERSION" : "7_08",
+  "flowDesc" : "DK-2784",
+  "LicensedName" : "7_08",
+  "numExecutors" : 2,
+  "livy" : false,
+  "groupName" : "dev",
+  "jobMap" : {
+    "source" : {
+      "dependentJob" : true,
+      "description" : "source component",
+      "id" : "source",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "Jan_2020_ontime" : {
+            "numberOfPart" : 0,
+            "column" : null
+          }
+        },
+        "tableProperties" : [ {
+          "tblName" : "Jan_2020_ontime",
+          "tblSize" : "10.52",
+          "tblRecordCount" : 49518,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 610,
+        "y" : 103
+      }
+    },
+    "target" : {
+      "dependentJob" : true,
+      "description" : "target component",
+      "id" : "target",
+      "sourceData" : [ {
+        "datasetFormat" : "JDBC",
+        "databaseName" : "sampledb_src",
+        "datasetPath" : "projects",
+        "jdbcData" : {
+          "connectionName" : "sampledb_src"
+        },
+        "tableNamesList" : {
+          "Jan_2020_ontime" : {
+            "numberOfPart" : 0,
+            "column" : null
+          }
+        },
+        "tableProperties" : [ {
+          "tblName" : "Jan_2020_ontime",
+          "tblSize" : "10.52",
+          "tblRecordCount" : 49518,
+          "primaryKeys" : [ ],
+          "indexKeys" : [ ],
+          "foreignKeys" : [ ],
+          "primaryKeysEnabled" : true,
+          "indexKeysEnabled" : false,
+          "foreignKeysEnabled" : false
+        } ]
+      } ],
+      "position" : {
+        "x" : 599,
+        "y" : 346
+      }
+    },
+    "dataCompare" : {
+      "dependentJob" : true,
+      "dependsOn" : [ "source", "target" ],
+      "description" : "dataCompare component",
+      "id" : "dataCompare",
+      "jobTypes" : [ "CELL_BY_CELL_COMPARE" ],
+      "filesCompareList" : [ {
+        "matchBoth" : true,
+        "compareType" : "CELL_BY_CELL_COMPARE",
+        "compareColumns" : false,
+        "compareCommonColumnsOnly" : true,
+        "srcDestTableMap" : {
+          "Jan_2020_ontime" : "Jan_2020_ontime"
+        },
+        "srcDestComponentMap" : {
+          "source" : "target"
+        },
+        "saveAllDiffOutput" : "",
+        "validateRowsCount" : false,
+        "tolerance" : [ ],
+        "sqlTransform" : [ ],
+        "compareKey" : [ "ORIGIN_AIRPORT_ID" ],
+        "compareKeyNew" : [ {
+          "srcColumn" : "ORIGIN_AIRPORT_ID",
+          "destColumn" : "ORIGIN_AIRPORT_ID"
+        } ],
+        "columnMapping" : [ {
+          "srcColumn" : "TAIL_NUM",
+          "destColumn" : "TAIL_NUM"
+        }, {
+          "srcColumn" : "ORIGIN_AIRPORT_SEQ_ID",
+          "destColumn" : "ORIGIN_AIRPORT_SEQ_ID"
+        }, {
+          "srcColumn" : "ORIGIN_AIRPORT_ID",
+          "destColumn" : "ORIGIN_AIRPORT_ID"
+        }, {
+          "srcColumn" : "ORIGIN",
+          "destColumn" : "ORIGIN"
+        }, {
+          "srcColumn" : "OP_UNIQUE_CARRIER",
+          "destColumn" : "OP_UNIQUE_CARRIER"
+        }, {
+          "srcColumn" : "OP_CARRIER_FL_NUM",
+          "destColumn" : "OP_CARRIER_FL_NUM"
+        }, {
+          "srcColumn" : "OP_CARRIER_AIRLINE_ID",
+          "destColumn" : "OP_CARRIER_AIRLINE_ID"
+        }, {
+          "srcColumn" : "OP_CARRIER",
+          "destColumn" : "OP_CARRIER"
+        }, {
+          "srcColumn" : "DIVERTED",
+          "destColumn" : "DIVERTED"
+        }, {
+          "srcColumn" : "DISTANCE",
+          "destColumn" : "DISTANCE"
+        }, {
+          "srcColumn" : "DEST_AIRPORT_SEQ_ID",
+          "destColumn" : "DEST_AIRPORT_SEQ_ID"
+        }, {
+          "srcColumn" : "DEST_AIRPORT_ID",
+          "destColumn" : "DEST_AIRPORT_ID"
+        }, {
+          "srcColumn" : "DEST",
+          "destColumn" : "DEST"
+        }, {
+          "srcColumn" : "DEP_TIME_BLK",
+          "destColumn" : "DEP_TIME_BLK"
+        }, {
+          "srcColumn" : "DEP_TIME",
+          "destColumn" : "DEP_TIME"
+        }, {
+          "srcColumn" : "DEP_DEL15",
+          "destColumn" : "DEP_DEL15"
+        }, {
+          "srcColumn" : "DAY_OF_WEEK",
+          "destColumn" : "DAY_OF_WEEK"
+        }, {
+          "srcColumn" : "DAY_OF_MONTH",
+          "destColumn" : "DAY_OF_MONTH"
+        }, {
+          "srcColumn" : "CANCELLED",
+          "destColumn" : "CANCELLED"
+        }, {
+          "srcColumn" : "ARR_TIME",
+          "destColumn" : "ARR_TIME"
+        }, {
+          "srcColumn" : "ARR_DEL15",
+          "destColumn" : "ARR_DEL15"
+        } ]
+      } ],
+      "position" : {
+        "x" : 819,
+        "y" : 181
+      },
+      "keyValueProps" : {
+        "ENABLE_SOURCE_COMPARE" : "true",
+        "BAD_RECORD_COUNT" : "15"
+      }
+    }
+  },
+  "root" : "dataCompare",
+  "hadoop" : false,
+  "UI_VERSION" : "7_08",
+  "API_APP_BUILD" : "7_08",
+  "parameters" : [ ],
+  "email" : [ ],
+  "flowType" : "CELL BY CELL COMPARE",
+  "flowId" : 454,
+  "dmsProjectId" : 17,
+  "syncInfo" : {
+    "syncId" : "FOLDER",
+    "timestamp" : "2025-12-30T17:26:25.124453Z",
+    "syncType" : "FOLDER",
+    "user" : "dataops"
+  }
+}
