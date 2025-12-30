@@ -1,0 +1,16 @@
+{
+  "id" : 86,
+  "name" : "new folder 21",
+  "description" : "new folder 21",
+  "fileType" : "folder",
+  "projectLevel" : "/",
+  "groupName" : "dev",
+  "iconId" : "0",
+  "status" : "ACTIVE",
+  "metadata" : {
+    "createdBy" : "dataops",
+    "updatedBy" : null,
+    "createdDate" : "2025-12-30T16:19:10Z",
+    "updatedDate" : null
+  }
+}
