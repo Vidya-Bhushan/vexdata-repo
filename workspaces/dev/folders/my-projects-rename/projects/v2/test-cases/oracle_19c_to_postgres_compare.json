@@ -1014,8 +1014,8 @@
   "dmsProjectId" : 17,
   "syncInfo" : {
     "syncId" : "FOLDER",
-    "timestamp" : "2025-12-30T18:08:20.842974Z",
+    "timestamp" : "2025-12-31T15:15:03.548629Z",
     "syncType" : "FOLDER",
-    "user" : "dataops"
+    "user" : "SYSTEM-SCHEDULER"
   }
 }
